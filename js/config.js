@@ -16,7 +16,7 @@ export const CONFIG = {
     productMessage:
       "Olá! Tenho interesse no [NOME] [VOLUME]. Gostaria de receber mais informações.",
     genericMessage:
-      "Olá! Tenho interesse nos perfumes da curadoria. Gostaria de receber mais informações.",
+      "Olá! Tenho interesse nos perfumes a pronta entrega. Gostaria de receber mais informações.",
   },
 
   // Planilha pública (somente leitura). O site consome o endpoint gviz,
