@@ -189,4 +189,224 @@ export const FRAGRANCES = {
       base: ["Cacau", "Caramelo", "Âmbar", "Vetiver", "Sândalo", "Almíscar"],
     },
   },
+
+  "bortnikoff-amber-cologne": {
+    image: "assets/perfumes/amber-cologne.webp",
+    perfumer: "Dmitry Bortnikoff",
+    source: "bortnikoff.com",
+    notes: {
+      top: ["Bergamota", "Limão", "Toranja Branca e Rosa", "Laranja Doce", "Cardamomo", "Frangipani"],
+      heart: ["Jasmim Sambac", "Cedro da Virgínia", "Sândalo"],
+      base: ["Âmbar Cinzento", "Oud do Sri Lanka", "Oud Bouya", "Baunilha"],
+    },
+  },
+
+  "bortnikoff-cologne-de-feu": {
+    image: "assets/perfumes/cologne-de-feu.webp",
+    perfumer: "Dmitry Bortnikoff",
+    source: "bortnikoff.com",
+    notes: {
+      top: ["Laranja Amarga", "Bigarade", "Laranja Sanguínea", "Litsea Cubeba", "Tangerina", "Limão", "Petitgrain"],
+      heart: ["Framboesa", "Chá", "Jasmim", "Sorbet de Pêssego"],
+      base: ["Cedro", "Sândalo", "Guaiaco", "Crocodile Wood", "Musgo de Carvalho"],
+    },
+  },
+
+  "bortnikoff-oud-cologne": {
+    image: "assets/perfumes/oud-cologne.webp",
+    perfumer: "Dmitry Bortnikoff",
+    source: "bortnikoff.com",
+    notes: {
+      top: ["Bergamota", "Toranja Branca", "Laranja Amarga", "Zimbro", "Pimenta Rosa"],
+      heart: ["Agulhas de Pinheiro", "Gerânio", "Rosa", "Noz-moscada"],
+      base: ["Âmbar Cinzento Branco", "Benjoim do Sião", "Oud Selvagem da Tailândia", "Fava Tonka", "Vetiver"],
+    },
+  },
+
+  "byredo-black-saffron-absolu": {
+    image: "assets/perfumes/black-saffron-absolu.webp",
+    family: "Amadeirado · Couro",
+    source: "byredo.com",
+    notes: {
+      top: ["Cassis", "Pimenta", "Açafrão"],
+      heart: ["Framboesa", "Absoluto de Rosa", "Orquídea Violeta", "Absoluto de Osmanthus"],
+      base: ["Incenso", "Patchouli", "Agarwood", "Couro Negro"],
+    },
+  },
+
+  "electimuss-black-caviar": {
+    image: "assets/perfumes/black-caviar.webp",
+    family: "Aromático",
+    perfumer: "Marco Genovese",
+    source: "electimuss.com",
+    notes: {
+      top: ["Caviar", "Agarwood", "Cedro"],
+      heart: ["Lavanda", "Sálvia", "Alecrim"],
+      base: ["Vetiver", "Patchouli", "Musgo de Carvalho"],
+    },
+  },
+
+  "electimuss-imperium": {
+    image: "assets/perfumes/imperium.webp",
+    family: "Cítrico Aromático",
+    perfumer: "Sofia Bardelli e Marco Genovese",
+    source: "electimuss.com",
+    notes: {
+      top: ["Bergamota", "Coentro"],
+      heart: ["Rosa", "Lírio", "Açafrão", "Jasmim", "Neroli", "Tuberosa"],
+      base: ["Âmbar", "Almíscar", "Baunilha de Madagascar", "Guaiaco", "Oud", "Patchouli"],
+    },
+  },
+
+  "houbigant-bois-mystique": {
+    image: "assets/perfumes/bois-mystique.webp",
+    family: "Amadeirado",
+    source: "houbigant-parfum.com",
+    notes: {
+      top: ["Bergamota", "Davana", "Gengibre"],
+      heart: ["Papiro", "Incenso"],
+      base: ["Âmbar", "Notas Amadeiradas"],
+    },
+  },
+
+  "hugo-boss-the-collection-elegant-vetiver": {
+    image: "assets/perfumes/elegant-vetiver.webp",
+    family: "Amadeirado",
+    perfumer: "Sophie Labbé",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Pistache", "Zimbro"],
+      heart: ["Vetiver do Haiti", "Óleo de Vetiver de Java"],
+      base: ["Cashmeran", "Labdanum"],
+    },
+  },
+
+  "initio-lift-me-up": {
+    image: "assets/perfumes/lift-me-up.webp",
+    family: "Floral Ambarado",
+    source: "initioparfums.com",
+    mainNotes: ["Ylang-Ylang", "Bergamota", "Magnólia", "Almíscar", "Fava Tonka Torrada", "Baunilha"],
+  },
+
+  "louis-vuitton-pur-oud": {
+    image: "assets/perfumes/pur-oud.webp",
+    perfumer: "Jacques Cavallier Belletrud",
+    source: "louisvuitton.com",
+    mainNotes: ["Oud de Assam", "Ambrettolide", "Helvetolide"],
+  },
+
+  "m-micallef-desirtoxic": {
+    image: "assets/perfumes/desirtoxic.webp",
+    family: "Amadeirado Especiado",
+    source: "parfumsmicallef.com",
+    notes: {
+      top: ["Bergamota", "Cardamomo"],
+      heart: ["Canela", "Cassis", "Cannabis"],
+      base: ["Patchouli", "Musgo", "Benjoim", "Almíscar"],
+    },
+  },
+
+  "m-micallef-desirtoxic-l-intense": {
+    image: "assets/perfumes/desirtoxic-intense.webp",
+    family: "Amadeirado Especiado",
+    source: "parfumsmicallef.com",
+    notes: {
+      top: ["Bergamota", "Açafrão", "Cardamomo", "Limão"],
+      heart: ["Menta", "Canela", "Fava Tonka", "Cassis"],
+      base: ["Âmbar Cinzento", "Almíscar", "Musgo", "Patchouli", "Benjoim"],
+    },
+  },
+
+  "memo-paris-palais-bourbon": {
+    image: "assets/perfumes/palais-bourbon.webp",
+    family: "Especiado Amadeirado",
+    perfumer: "Gaël Montero",
+    source: "memoparis.com",
+    notes: {
+      top: ["Pimenta-do-reino", "Cardamomo", "Casca de Canela", "Incenso", "Gerânio"],
+      heart: ["Bálsamo do Peru", "Benjoim", "Cisto", "Fava Tonka", "Baunilha"],
+      base: ["Sândalo Spicatum", "Patchouli", "Guaiaco", "Vetiver"],
+    },
+  },
+
+  "mind-games-kingside": {
+    image: "assets/perfumes/kingside.webp",
+    family: "Ambarado Amadeirado",
+    perfumer: "David Apel",
+    source: "mindgamesfragrance.com",
+    notes: {
+      top: ["Pistache Cremoso", "Cardamomo", "Raspas de Toranja"],
+      heart: ["Flor de Avelã", "Rum Âmbar", "Pétalas de Peônia"],
+      base: ["Fava Tonka", "Leite de Amêndoas", "Bálsamo do Peru"],
+    },
+  },
+
+  "mind-games-prodigy": {
+    image: "assets/perfumes/prodigy.webp",
+    family: "Floral Amadeirado",
+    perfumer: "Nathalie Benareau",
+    source: "mindgamesfragrance.com",
+    notes: {
+      top: ["Absoluto de Rosa", "Cardamomo", "Bergamota"],
+      heart: ["Patchouli", "Café Latte", "Flor de Longoza"],
+      base: ["Sândalo", "Baunilha", "Madeiras Loiras"],
+    },
+  },
+
+  "parfums-d-elmar-elixir-d-amour": {
+    image: "assets/perfumes/elixir-damour.webp",
+    family: "Oriental",
+    source: "parfumsdelmar.com",
+    notes: {
+      top: ["Açafrão", "Folhas de Figo Verde", "Pimenta Rosa", "Bergamota"],
+      heart: ["Framboesa", "Absoluto de Rosa Búlgara", "Guaiaco", "Lírio-do-vale", "Jasmim d'Água"],
+      base: ["Baunilha", "Âmbar", "Amyris", "Caramelo Queimado", "Oud", "Labdanum", "Patchouli", "Almíscar", "Absoluto de Cisto"],
+    },
+  },
+
+  "parfums-d-elmar-dalika": {
+    image: "assets/perfumes/dalika.webp",
+    family: "Gourmand Oriental",
+    source: "parfumsdelmar.com",
+    notes: {
+      top: ["Pêssego", "Fava Tonka", "Nozes", "Caramelo"],
+      heart: ["Praliné", "Baunilha do Haiti", "Patchouli da Indonésia", "Amêndoa"],
+      base: ["Sândalo Australiano", "Vetiver de Java", "Almíscar", "Cacau", "Chocolate Amargo", "Rum"],
+    },
+  },
+
+  "rosendo-mateu-10": {
+    image: "assets/perfumes/rosendo-mateu-10.webp",
+    family: "Almiscarado",
+    source: "rosendomateu.com",
+    notes: {
+      top: ["Aldeídos", "Notas Florais"],
+      heart: ["Almíscares Modernos", "Acorde Âmbar-Amadeirado"],
+      base: ["Baunilha", "Âmbar", "Notas Amadeiradas"],
+    },
+  },
+
+  "sora-dora-gladiator": {
+    image: "assets/perfumes/gladiator.webp",
+    family: "Fougère",
+    source: "soradora.com",
+    notes: {
+      top: ["Toranja", "Abacaxi", "Bergamota Italiana", "Bigarade"],
+      heart: ["Gerânio do Egito", "Hortelã-pimenta", "Âmbar Cinzento"],
+      base: ["Patchouli da Indonésia", "Vetiver do Haiti"],
+    },
+  },
+
+  "tomavicci-silk-caviar": {
+    image: "assets/perfumes/silk-caviar.webp",
+    source: "tomavicci.com",
+    notes: {
+      top: ["Bergamota Italiana", "Cardamomo Verde", "Canela do Ceilão", "Gengibre", "Zimbro", "Cipreste Mediterrâneo"],
+      heart: ["Absoluto de Jasmim Sambac", "Neroli Tunisiano", "Absoluto de Rosa Turca", "Pimenta-do-reino"],
+      base: ["Cedro Envelhecido", "Sândalo", "Vetiver do Haiti", "Labdanum", "Resina de Estoraque", "Musgo de Carvalho", "Almíscar", "Âmbar"],
+    },
+  },
 };
+
+// A planilha passou a grafar "Histoires des Parfums"; mantém o vínculo com o 1740.
+FRAGRANCES["histoires-des-parfums-1740"] = FRAGRANCES["histoires-de-parfums-1740"];

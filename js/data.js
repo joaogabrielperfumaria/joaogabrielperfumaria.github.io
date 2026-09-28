@@ -17,6 +17,7 @@
  *     volume?: string         // ex.: "100ml"
  *     concentration?: string  // ex.: "EDP", "Extrait" (quando presente no nome)
  *     isTester?: boolean
+ *     noBox?: boolean         // "sem caixa" na planilha
  *     price?: number          // em reais
  *     priceFormatted?: string
  *     status?: string         // ex.: "NOVO"
@@ -39,27 +40,38 @@ const CACHE_KEY = "jgg-catalog-v2";
 
 /** Snapshot local usado como fallback quando a planilha está inacessível. */
 const FALLBACK_ROWS = [
-  ["Boadicea The Victorious - Rose Sapphire 100ml", "R$ 2.790,00", "NOVO"],
-  ["Boadicea The Victorious - Knight of Love 100ml", "R$ 2.090,00", "NOVO"],
-  ["Boadicea The Victorious - Amber Sapphire 100ml", "R$ 2.790,00", "NOVO"],
-  ["Cirque du Soleil - L’eau Parfum 100ml", "R$ 1.080,00", "NOVO"],
-  ["Gritti - Chantilly EDP 100ml", "R$ 940,00", "NOVO"],
-  ["Gritti - Mango Aoud Extrait 100ml", "R$ 1.100,00", "NOVO"],
-  ["Histoires De Parfums - 1740 120ml", "R$ 850,00", "NOVO"],
-  ["Initio - Oud for Greatness Neo 90ml", "R$ 1.430,00", "NOVO"],
-  ["Initio - Wild Rush tester 90ml", "R$ 1.650,00", "NOVO"],
-  ["Mizensir - For Your Love EDP 100ml", "R$ 880,00", "NOVO"],
-  ["Mizensir - Tonic Water EDP 100ml", "R$ 850,00", "NOVO"],
-  ["Omanluxury - Dejan 100ml", "R$ 1.690,00", "NOVO"],
-  ["Parfums d’Elmar - Zaya 60ml", "R$ 1.380,00", "NOVO"],
-  ["Ramon Monegal - Matador 50ml", "R$ 1.150,00", "NOVO"],
+  ["Boadicea The Victorious - Amber Sapphire 100ml", "R$ 2.700,00", "NOVO"],
+  ["Boadicea The Victorious - Rose Sapphire 100ml", "R$ 2.700,00", "NOVO"],
+  ["Bortnikoff - Amber Cologne 50ml", "R$ 1.000,00", "NOVO"],
+  ["Bortnikoff - Cologne de Feu 50ml", "R$ 1.000,00", "NOVO"],
+  ["Bortnikoff - Oud Cologne 50ml", "R$ 1.050,00", "NOVO"],
+  ["Byredo - Black Saffron Absolu 100ml", "R$ 1.950,00", "NOVO"],
+  ["Electimuss - Black Caviar 100ml", "R$ 1.220,00", "NOVO"],
+  ["Electimuss - Imperium 100ml", "R$ 1.240,00", "NOVO"],
+  ["Gritti - Chantilly EDP 100ml", "R$ 900,00", "NOVO"],
+  ["Histoires des Parfums - 1740 120ml", "R$ 850,00", "NOVO"],
+  ["Houbigant - Bois Mystique 100ml", "R$ 950,00", "NOVO"],
+  ["Hugo Boss - The Collection Elegant Vetiver 100ml", "R$ 950,00", "NOVO"],
+  ["Initio - Lift Me Up 90ml", "R$ 1.670,00", "NOVO"],
+  ["Louis Vuitton - Pur Oud 100ml sem caixa", "R$ 5.200,00", "NOVO"],
+  ["M. Micallef - DesirToxic L'Intense 100ml", "R$ 1.000,00", "NOVO"],
+  ["M. Micallef - DesirToxic 100ml", "R$ 900,00", "NOVO"],
+  ["Memo Paris - Palais Bourbon 75ml", "R$ 1.180,00", "NOVO"],
+  ["Mind Games - Kingside 100ml", "R$ 1.950,00", "NOVO"],
+  ["Mind Games - Prodigy 100ml", "R$ 2.000,00", "NOVO"],
+  ["Parfums D'Elmar - Elixir D'Amour 60ml", "R$ 1.350,00", "NOVO"],
+  ["Parfums D'Elmar - Zaya 60ml", "R$ 1.350,00", "NOVO"],
+  ["Parfums D'Elmar - Dalika 60ml", "R$ 1.290,00", "NOVO"],
+  ["Rosendo Mateu - 10 100ml", "R$ 830,00", "NOVO"],
+  ["Sora Dora - Gladiator Extrait 50ml", "R$ 1.250,00", "NOVO"],
   ["Sospiro - Farsa 75ml", "R$ 950,00", "NOVO"],
+  ["Tomavicci - Silk & Caviar 100ml", "R$ 1.490,00", "NOVO"],
 ];
 
 /**
- * Somente marcadores inequívocos de concentração. "Parfum" sozinho fica de
- * fora de propósito: em nomes como "L’eau Parfum" ele faz parte do nome da
- * fragrância, e removê-lo inventaria uma informação que a fonte não dá.
+ * Somente marcadores inequívocos de concentração. "Parfum" e "Elixir" ficam
+ * de fora de propósito: em nomes como "L’eau Parfum" e "Elixir D'Amour" eles
+ * fazem parte do nome, e removê-los inventaria uma informação que a fonte não dá.
  */
 const CONCENTRATIONS = [
   ["extrait de parfum", "Extrait"],
@@ -68,7 +80,6 @@ const CONCENTRATIONS = [
   ["edp", "EDP"],
   ["eau de toilette", "EDT"],
   ["edt", "EDT"],
-  ["elixir", "Elixir"],
 ];
 
 function parsePrice(raw) {
@@ -108,6 +119,12 @@ function toPerfume(rawName, rawPrice, rawStatus, index) {
   const sep = fullName.indexOf(" - ");
   const brand = sep > 0 ? fullName.slice(0, sep).trim() : "";
   let name = sep > 0 ? fullName.slice(sep + 3).trim() : fullName;
+
+  let noBox = false;
+  if (/\bsem caixa\b/i.test(name)) {
+    noBox = true;
+    name = name.replace(/\bsem caixa\b/i, "").replace(/\s{2,}/g, " ").trim();
+  }
 
   let volume;
   const volMatch = name.match(/(\d+(?:[.,]\d+)?\s?ml)\s*$/i);
@@ -155,6 +172,7 @@ function toPerfume(rawName, rawPrice, rawStatus, index) {
     volume,
     concentration,
     isTester,
+    noBox,
     price,
     priceFormatted: brl.format(price),
     status,
