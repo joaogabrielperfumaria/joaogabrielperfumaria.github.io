@@ -410,3 +410,6 @@ export const FRAGRANCES = {
 
 // A planilha passou a grafar "Histoires des Parfums"; mantém o vínculo com o 1740.
 FRAGRANCES["histoires-des-parfums-1740"] = FRAGRANCES["histoires-de-parfums-1740"];
+
+// A planilha passou a grafar "Rosendo Mateu - Rosendo Mateu 10".
+FRAGRANCES["rosendo-mateu-rosendo-mateu-10"] = FRAGRANCES["rosendo-mateu-10"];
