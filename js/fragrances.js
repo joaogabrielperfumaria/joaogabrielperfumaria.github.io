@@ -406,6 +406,371 @@ export const FRAGRANCES = {
       base: ["Cedro Envelhecido", "Sândalo", "Vetiver do Haiti", "Labdanum", "Resina de Estoraque", "Musgo de Carvalho", "Almíscar", "Âmbar"],
     },
   },
+
+  "boadicea-the-victorious-azrak": {
+    image: "assets/perfumes/azrak.webp",
+    source: "boadiceaperfume.com",
+    notes: {
+      top: ["Limão", "Abacaxi", "Bergamota", "Cassis", "Cardamomo", "Canela"],
+      heart: ["Violeta", "Rosa", "Especiarias", "Lírio-do-vale", "Folha de Violeta", "Jasmim"],
+      base: ["Âmbar", "Almíscar", "Sândalo", "Notas Amadeiradas", "Oud", "Cedro"],
+    },
+  },
+
+  "boadicea-the-victorious-bravery": {
+    image: "assets/perfumes/bravery.webp",
+    source: "boadiceaperfume.com",
+    notes: {
+      top: ["Pimenta-do-reino", "Açafrão", "Lavanda"],
+      heart: ["Jasmim", "Lírio", "Rosa", "Flor de Laranjeira"],
+      base: ["Âmbar", "Almíscar", "Baunilha", "Sândalo", "Musgo de Carvalho"],
+    },
+  },
+
+  "boadicea-the-victorious-defender": {
+    image: "assets/perfumes/defender.webp",
+    source: "boadiceaperfume.com",
+    notes: {
+      top: ["Gengibre", "Toranja", "Mel", "Conhaque", "Alcaçuz", "Frutas Vermelhas"],
+      heart: ["Flor de Laranjeira", "Resina de Mirra", "Jasmim Noturno", "Feno"],
+      base: ["Almíscares", "Couro", "Âmbar Vermelho", "Bálsamo do Peru", "Benjoim", "Fava Tonka", "Labdanum"],
+    },
+  },
+
+  "boadicea-the-victorious-glorious": {
+    image: "assets/perfumes/glorious.webp",
+    source: "boadiceaperfume.com",
+    notes: {
+      top: ["Abacaxi", "Framboesa", "Maçã", "Cardamomo", "Cassis"],
+      heart: ["Jasmim", "Noz-moscada", "Rosa", "Elemi"],
+      base: ["Âmbar", "Cedro", "Almíscar", "Patchouli", "Sândalo", "Guaiaco", "Musgo", "Baunilha"],
+    },
+  },
+
+  "boadicea-the-victorious-rebellious": {
+    image: "assets/perfumes/rebellious.webp",
+    source: "boadiceaperfume.com",
+    notes: {
+      top: ["Bergamota", "Canela", "Açafrão"],
+      heart: ["Violeta", "Labdanum", "Rosa"],
+      base: ["Patchouli", "Sândalo", "Camurça", "Almíscar"],
+    },
+  },
+
+  "boadicea-the-victorious-royal-sapphires-collection": {
+    image: "assets/perfumes/royal-sapphires-set.webp",
+    source: "boadiceaperfume.com",
+    contents: ["Blue Sapphire", "Oud Sapphire", "Green Sapphire", "Aqua Sapphire"],
+  },
+
+  "boadicea-the-victorious-the-amber-gift-set": {
+    image: "assets/perfumes/ambery-set.webp",
+    source: "boadiceaperfume.com",
+    contents: ["Nemer", "Hasu", "Defender", "Blue Sapphire"],
+  },
+
+  "boadicea-the-victorious-the-leather-gift-set": {
+    image: "assets/perfumes/leather-set.webp",
+    source: "boadiceaperfume.com",
+    contents: ["Monarch", "Opal", "Oud Sapphire", "Complex"],
+  },
+
+  "boadicea-the-victorious-the-woody-gift-set": {
+    image: "assets/perfumes/woody-set.webp",
+    source: "boadiceaperfume.com",
+    contents: ["Imperial", "Angelic", "Tobacco Sapphire", "Green Sapphire"],
+  },
+
+  "byredo-blanche-absolu": {
+    image: "assets/perfumes/blanche-absolu.webp",
+    source: "byredo.com",
+    notes: {
+      top: ["Aldeídos", "Pimenta-do-reino", "Neroli"],
+      heart: ["Absoluto de Rosa", "Violeta", "Jasmim"],
+      base: ["Cashmeran", "Almíscares", "Ambroxan", "Madeira de Cashmere"],
+    },
+  },
+
+  "christian-provenzano-ambre-d-or": {
+    image: "assets/perfumes/ambre-d-or.webp",
+    perfumer: "Christian Provenzano",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Caipirinha", "Limão", "Maçã", "Tangerina", "Pimenta Rosa", "Sálvia"],
+      heart: ["Lentisco", "Lírio", "Jasmim", "Rosa"],
+      base: ["Âmbar", "Almíscar", "Sândalo", "Patchouli", "Vetiver", "Baunilha"],
+    },
+  },
+
+  "christian-provenzano-colosseum": {
+    image: "assets/perfumes/colosseum.webp",
+    perfumer: "Christian Provenzano",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Limão", "Laranja", "Zimbro", "Pimenta Rosa", "Toranja", "Lavanda", "Cipreste"],
+      heart: ["Folha de Violeta", "Couro", "Coentro", "Tomilho", "Jasmim"],
+      base: ["Almíscar", "Benjoim", "Musgo", "Vetiver", "Âmbar", "Cypriol"],
+    },
+  },
+
+  "christian-provenzano-cuir-elite": {
+    image: "assets/perfumes/cuir-elite.webp",
+    perfumer: "Christian Provenzano",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Conhaque", "Coentro", "Cardamomo", "Açafrão", "Tomilho"],
+      heart: ["Ameixa", "Cedro", "Violeta", "Rosa", "Íris", "Davana"],
+      base: ["Couro", "Baunilha", "Vetiver", "Âmbar", "Cypriol", "Sândalo", "Almíscar"],
+    },
+  },
+
+  "christian-provenzano-inspirato": {
+    image: "assets/perfumes/inspirato.webp",
+    perfumer: "Christian Provenzano",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Lavanda", "Bergamota", "Coentro", "Cardamomo", "Canela", "Pimenta Rosa"],
+      heart: ["Almíscar Cashmere", "Notas Aquáticas", "Íris", "Jasmim"],
+      base: ["Musgo de Carvalho", "Almíscar", "Sândalo", "Âmbar", "Fava Tonka", "Labdanum", "Madeira Branca"],
+    },
+  },
+
+  "christian-provenzano-mangostino": {
+    image: "assets/perfumes/mangostino.webp",
+    family: "Oriental Amadeirado",
+    perfumer: "Christian Provenzano",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Framboesa", "Mangostão", "Abacaxi", "Pimenta"],
+      heart: ["Manga", "Rosa Marroquina", "Gerânio"],
+      base: ["Oud", "Oud do Camboja", "Couro", "Guaiaco", "Âmbar Cinzento", "Patchouli", "Baunilha", "Almíscar"],
+    },
+  },
+
+  "christian-provenzano-massimo": {
+    image: "assets/perfumes/massimo.webp",
+    perfumer: "Christian Provenzano",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Bergamota", "Cardamomo", "Canela", "Gengibre"],
+      heart: ["Pimenta Rosa", "Couro", "Pimenta-do-reino", "Pimenta-da-jamaica"],
+      base: ["Sândalo", "Almíscar", "Âmbar", "Cedro", "Labdanum", "Olíbano", "Vetiver", "Estoraque", "Fava Tonka", "Benjoim"],
+    },
+  },
+
+  "christian-provenzano-onda-de-mar": {
+    image: "assets/perfumes/onda-de-mar.webp",
+    perfumer: "Christian Provenzano",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Alga Marinha", "Abacaxi", "Laranja Amarga", "Lavanda", "Toranja"],
+      heart: ["Notas Marinhas", "Hedione", "Rosa", "Davana"],
+      base: ["Almíscar", "Sândalo", "Musgo", "Âmbar Cristal", "Açúcar Caramelizado"],
+    },
+  },
+
+  "christian-provenzano-patchouli-noir": {
+    image: "assets/perfumes/patchouli-noir.webp",
+    perfumer: "Christian Provenzano",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Frutas Vermelhas", "Pimenta Rosa", "Bergamota"],
+      heart: ["Osmanthus", "Íris", "Rosa Turca", "Jasmim Sambac"],
+      base: ["Patchouli", "Labdanum"],
+    },
+  },
+
+  "christian-provenzano-rocca": {
+    image: "assets/perfumes/rocca.webp",
+    perfumer: "Christian Provenzano",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Framboesa", "Açafrão", "Laranja"],
+      heart: ["Caramelo", "Peônia", "Rosa de Maio"],
+      base: ["Âmbar", "Almíscar", "Baunilha", "Musgo"],
+    },
+  },
+
+  "christian-provenzano-spezia": {
+    image: "assets/perfumes/spezia.webp",
+    perfumer: "Christian Provenzano",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Pimenta Rosa", "Pimenta Branca", "Bergamota", "Angélica", "Cipreste"],
+      heart: ["Manteiga", "Íris", "Noz-moscada", "Neroli", "Cravo", "Jasmim Egípcio"],
+      base: ["Madeiras Loiras", "Âmbar", "Almíscar", "Musgo", "Cedro", "Patchouli", "Vetiver"],
+    },
+  },
+
+  "creed-erolfa": {
+    image: "assets/perfumes/erolfa.webp",
+    family: "Fougère Aromático · Marinho",
+    source: "creedboutique.com",
+    notes: {
+      top: ["Limão", "Lima", "Tangerina", "Manjericão", "Bergamota", "Gengibre"],
+      heart: ["Acorde de Violeta", "Notas Florais Frescas", "Lavanda", "Coentro", "Melancia", "Pepino", "Jasmim Indiano"],
+      base: ["Sândalo", "Almíscar", "Madeiras Secas"],
+    },
+  },
+
+  "creed-fragaria": {
+    image: "assets/perfumes/fragaria.webp",
+    family: "Floral Frutado",
+    source: "creedfragrances.co.uk",
+    notes: {
+      top: ["Bergamota", "Pimenta Timur", "Pimenta Rosa", "Tangerina"],
+      heart: ["Morango", "Manteiga de Íris", "Acorde de Violeta"],
+      base: ["Patchouli", "Bálsamo de Abeto", "Acorde de Praliné Rosa", "Vetiver", "Cedro"],
+    },
+  },
+
+  "creed-love-in-black": {
+    image: "assets/perfumes/love-in-black.webp",
+    family: "Floral · Violeta · Gourmand",
+    source: "creedboutique.com",
+    notes: {
+      top: ["Folhas de Violeta", "Framboesa", "Cranberry"],
+      heart: ["Rosa", "Acorde de Violeta", "Manteiga de Íris", "Jasmim"],
+      base: ["Cedro", "Almíscar", "Notas de Couro"],
+    },
+  },
+
+  "creed-original-santal": {
+    image: "assets/perfumes/original-santal.webp",
+    family: "Fougère Aromático · Ambarado",
+    source: "creedboutique.com",
+    notes: {
+      top: ["Gengibre", "Zimbro", "Bergamota", "Alecrim", "Coentro", "Tangerina"],
+      heart: ["Lavanda", "Gerânio", "Flor de Laranjeira", "Sândalo"],
+      base: ["Musgo de Carvalho", "Almíscar", "Fava Tonka", "Cedro"],
+    },
+  },
+
+  "creed-royal-princess-oud": {
+    image: "assets/perfumes/royal-princess-oud.webp",
+    family: "Floral Ambarado",
+    source: "creedboutique.com",
+    notes: {
+      top: ["Acorde de Framboesa", "Bergamota", "Cardamomo"],
+      heart: ["Rosa Damascena", "Angélica", "Acorde de Pétalas de Jasmim"],
+      base: ["Oud", "Patchouli", "Íris", "Labdanum"],
+    },
+  },
+
+  "jacques-zolty-severo": {
+    image: "assets/perfumes/severo.webp",
+    family: "Oriental Especiado",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Coca-Cola", "Rum", "Limão"],
+      heart: ["Pimenta-do-reino", "Davana", "Bétula"],
+      base: ["Baunilha", "Almíscar Branco", "Âmbar"],
+    },
+  },
+
+  "mes-bisous-out-of-reach": {
+    image: "assets/perfumes/out-of-reach.webp",
+    family: "Amadeirado Aquático",
+    perfumer: "Özge Erdoğmuş Altınel",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Gelato de Pera", "Limão", "Lima", "Gengibre", "Tangerina", "Pimenta Rosa"],
+      heart: ["Notas Aquáticas", "Acorde de Gelo", "Sal Marinho", "Frésia"],
+      base: ["Absoluto de Baunilha", "Almíscar", "Madeira de Cashmere", "Sândalo", "Musgo", "Âmbar"],
+    },
+  },
+
+  "mind-games-blockade": {
+    image: "assets/perfumes/blockade.webp",
+    perfumer: "Christelle Laprade",
+    source: "mindgamesfragrance.com",
+    notes: {
+      top: ["Casca de Manga", "Pimenta Rosa", "Folha de Tomate", "Bergamota"],
+      heart: ["Lavanda", "Flor de Manga", "Cíclame", "Anis-estrelado"],
+      base: ["Couro Aveludado", "Patchouli", "Ambrostar", "Oud"],
+    },
+  },
+
+  "mind-games-checkmate": {
+    image: "assets/perfumes/checkmate.webp",
+    family: "Chipre",
+    perfumer: "David Apel",
+    source: "mindgamesfragrance.com",
+    notes: {
+      top: ["Davana", "Champanhe", "Groselha Vermelha"],
+      heart: ["Rosa de Maio", "Rosa Búlgara", "Magnólia", "Rosa Centifolia"],
+      base: ["Tabaco Bourbon", "Folhas de Patchouli", "Musgo de Árvore"],
+    },
+  },
+
+  "mind-games-french-defense": {
+    image: "assets/perfumes/french-defense.webp",
+    family: "Frutado",
+    perfumer: "Christelle Laprade",
+    source: "mindgamesfragrance.com",
+    notes: {
+      top: ["Cereja", "Folhas de Violeta", "Camomila"],
+      heart: ["Gerânio de Madagascar", "Absoluto de Rosa", "Mimosa"],
+      base: ["Âmbar", "Cedro", "Madeira Loira"],
+    },
+  },
+
+  "mind-games-grand-master": {
+    image: "assets/perfumes/grand-master.webp",
+    family: "Ambarado",
+    perfumer: "Alexandra Carlin",
+    source: "mindgamesfragrance.com",
+    notes: {
+      top: ["Cassis", "Água de Rosas", "Peônia"],
+      heart: ["Rosa Centifolia", "Café Kona", "Violeta Selvagem"],
+      base: ["Mirra", "Incenso", "Panettone", "Ébano"],
+    },
+  },
+
+  "mind-games-the-forward": {
+    image: "assets/perfumes/the-forward.webp",
+    family: "Floral Gourmand",
+    perfumer: "Nathalie Benareau",
+    source: "mindgamesfragrance.com",
+    notes: {
+      top: ["Limão", "Tangerina de Madagascar", "Pomelo"],
+      heart: ["Jasmim Sambac", "Fava Tonka", "Acorde Salgado"],
+      base: ["Baunilha de Madagascar", "Sândalo", "Cashmeran"],
+    },
+  },
+
+  "moresque-oro": {
+    image: "assets/perfumes/oro.webp",
+    family: "Oriental",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Estragão", "Artemísia", "Angélica"],
+      heart: ["Estoraque", "Lírio Casablanca", "Frangipani"],
+      base: ["Labdanum", "Incenso", "Mirra", "Almíscar Branco", "Ambreta"],
+    },
+  },
+
+  "moresque-oroluna": {
+    image: "assets/perfumes/oroluna.webp",
+    family: "Oriental Amadeirado",
+    perfumer: "Andrea Casotti",
+    source: "moresqueparfumshop.com",
+    notes: {
+      top: ["Cardamomo", "Pimenta Rosa", "Toranja"],
+      heart: ["Rosa Turca", "Gerânio", "Cedro", "Patchouli"],
+      base: ["Incenso", "Oud", "Sândalo", "Musgo de Carvalho", "Labdanum", "Almíscares"],
+    },
+  },
+
+  "ramon-monegal-flamenco": {
+    image: "assets/perfumes/flamenco.webp",
+    source: "monegalperfumes.com",
+    notes: {
+      top: ["Framboesa", "Violeta", "Íris"],
+      heart: ["Jasmim", "Pau-rosa", "Rosa Vermelha"],
+      base: ["Almíscar", "Amberwood", "Cedro"],
+    },
+  },
 };
 
 // A planilha passou a grafar "Histoires des Parfums"; mantém o vínculo com o 1740.

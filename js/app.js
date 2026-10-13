@@ -400,14 +400,15 @@ function buildNoteTier(label, notes) {
  * Se não houver nenhum dado, a seção inteira não é exibida.
  */
 function appendOlfactoryProfile(body, perfume) {
-  const { notes, mainNotes, family, perfumer, source } = perfume;
-  if (!notes && !mainNotes && !family) return;
+  const { notes, mainNotes, contents, family, perfumer, source } = perfume;
+  if (!notes && !mainNotes && !contents && !family) return;
 
   body.appendChild(document.createElement("hr")).className = "drawer-divider";
 
   const label = document.createElement("p");
   label.className = "drawer-section-label";
-  label.textContent = "Perfil olfativo";
+  // Kits não têm pirâmide própria: mostram as fragrâncias que trazem.
+  label.textContent = contents ? "Conteúdo do kit" : "Perfil olfativo";
   body.appendChild(label);
 
   if (family) {
@@ -433,6 +434,11 @@ function appendOlfactoryProfile(body, perfume) {
     const pyramid = document.createElement("div");
     pyramid.className = "pyramid";
     pyramid.appendChild(buildNoteTier("Notas", mainNotes));
+    body.appendChild(pyramid);
+  } else if (contents?.length) {
+    const pyramid = document.createElement("div");
+    pyramid.className = "pyramid";
+    pyramid.appendChild(buildNoteTier("Inclui", contents));
     body.appendChild(pyramid);
   }
 
