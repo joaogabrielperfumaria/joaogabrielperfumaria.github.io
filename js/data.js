@@ -72,7 +72,6 @@ const FALLBACK_ROWS = [
   ["Initio - Lift me Up 90ml", "R$ 1.650,00", ""],
   ["Initio - Wild Rush tester 90ml", "R$ 1.590,00", ""],
   ["M. Micallef - DesirToxic 100ml", "R$ 900,00", "NOVO"],
-  ["M. Micallef - DesirToxic L’Intense 100ml", "R$ 1.000,00", "NOVO"],
   ["Mes Bisous - Out of Reach 100ml", "R$ 1.200,00", "NOVO"],
   ["Mind Games - Blockade 100ml", "R$ 1.690,00", "NOVO"],
   ["Mind Games - Checkmate 100ml", "R$ 1.690,00", "NOVO"],
