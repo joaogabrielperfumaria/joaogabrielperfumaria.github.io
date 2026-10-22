@@ -63,8 +63,6 @@ const FALLBACK_ROWS = [
   ["Christian Provenzano - Patchouli Noir 100ml", "R$ 1.390,00", "NOVO"],
   ["Christian Provenzano - Rocca 100ml", "R$ 1.390,00", "NOVO"],
   ["Christian Provenzano - Spezia 100ml", "R$ 1.390,00", "NOVO"],
-  ["Creed - Erolfa 100ml", "R$ 1.800,00", "NOVO"],
-  ["Creed - Fragaria 75ml", "R$ 1.890,00", "NOVO"],
   ["Creed - Love In Black 75ml", "R$ 1.450,00", "NOVO"],
   ["Creed - Original Santal 100ml", "R$ 1.490,00", "NOVO"],
   ["Creed - Royal Princess Oud 75ml", "R$ 1.450,00", "NOVO"],
@@ -83,7 +81,6 @@ const FALLBACK_ROWS = [
   ["Moresque - Oroluna 50ml", "R$ 875,00", "NOVO"],
   ["Parfums d’Elmar - Dalika 60ml", "R$ 1.290,00", "NOVO"],
   ["Parfums d’Elmar - Elixir d’Amour 60ml", "R$ 1.350,00", "NOVO"],
-  ["Ramon Monegal - Flamenco EDP 50ml", "R$ 1.090,00", "NOVO"],
   ["Sora Dora - Gladiator Extrait 50ml", "R$ 1.250,00", "NOVO"],
   ["Sospiro - Farsa 75ml", "R$ 850,00", ""],
 ];
