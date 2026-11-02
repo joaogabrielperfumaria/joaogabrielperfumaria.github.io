@@ -40,49 +40,92 @@ const CACHE_KEY = "jgg-catalog-v2";
 
 /** Snapshot local usado como fallback quando a planilha está inacessível. */
 const FALLBACK_ROWS = [
-  ["Boadicea The Victorious - Amber Sapphire 100ml", "R$ 2.700,00", ""],
-  ["Boadicea The Victorious - Azrak 100ml", "R$ 1.690,00", "NOVO"],
-  ["Boadicea The Victorious - Bravery 100ml", "R$ 1.390,00", "NOVO"],
-  ["Boadicea The Victorious - Defender 100ml", "R$ 1.640,00", "NOVO"],
-  ["Boadicea The Victorious - Glorious 100ml", "R$ 1.390,00", "NOVO"],
-  ["Boadicea The Victorious - Rebellious 100ml", "R$ 1.350,00", "NOVO"],
-  ["Boadicea The Victorious - Rose Sapphire 100ml", "R$ 2.520,00", "NOVO"],
-  ["Boadicea The Victorious - Royal Sapphires Collection", "R$ 1.200,00", "NOVO"],
-  ["Boadicea The Victorious - The Amber Gift Set", "R$ 1.150,00", "NOVO"],
-  ["Boadicea The Victorious - The Leather Gift Set", "R$ 1.150,00", "NOVO"],
-  ["Boadicea The Victorious - The Woody Gift Set", "R$ 1.150,00", "NOVO"],
-  ["Bortnikoff - Cologne de Feu 50ml", "R$ 1.000,00", "NOVO"],
-  ["Byredo - Blanche Absolu 100ml", "R$ 2.000,00", "NOVO"],
-  ["Christian Provenzano - Ambre D’Or 100ml", "R$ 1.420,00", "NOVO"],
-  ["Christian Provenzano - Colosseum 100ml", "R$ 1.390,00", "NOVO"],
-  ["Christian Provenzano - Cuir Elite 100ml", "R$ 1.390,00", "NOVO"],
-  ["Christian Provenzano - Inspirato 100ml", "R$ 1.350,00", "NOVO"],
-  ["Christian Provenzano - Mangostino 100ml", "R$ 1.390,00", "NOVO"],
-  ["Christian Provenzano - Massimo 100ml", "R$ 1.390,00", "NOVO"],
-  ["Christian Provenzano - Onda de Mar 100ml", "R$ 1.390,00", "NOVO"],
-  ["Christian Provenzano - Patchouli Noir 100ml", "R$ 1.390,00", "NOVO"],
-  ["Christian Provenzano - Rocca 100ml", "R$ 1.390,00", "NOVO"],
-  ["Christian Provenzano - Spezia 100ml", "R$ 1.390,00", "NOVO"],
-  ["Creed - Love In Black 75ml", "R$ 1.450,00", "NOVO"],
-  ["Creed - Original Santal 100ml", "R$ 1.490,00", "NOVO"],
-  ["Creed - Royal Princess Oud 75ml", "R$ 1.450,00", "NOVO"],
-  ["Gritti - Chantilly EDP 100ml", "R$ 900,00", ""],
-  ["Initio - Lift me Up 90ml", "R$ 1.650,00", ""],
-  ["Initio - Wild Rush tester 90ml", "R$ 1.590,00", ""],
-  ["M. Micallef - DesirToxic 100ml", "R$ 900,00", "NOVO"],
-  ["Mes Bisous - Out of Reach 100ml", "R$ 1.200,00", "NOVO"],
-  ["Mind Games - Blockade 100ml", "R$ 1.690,00", "NOVO"],
-  ["Mind Games - Checkmate 100ml", "R$ 1.690,00", "NOVO"],
-  ["Mind Games - French Defense 100ml", "R$ 1.690,00", "NOVO"],
-  ["Mind Games - Grand Master 100ml", "R$ 1.690,00", "NOVO"],
-  ["Mind Games - Kingside 100ml", "R$ 1.950,00", "NOVO"],
-  ["Mind Games - The Forward 100ml", "R$ 1.690,00", "NOVO"],
-  ["Moresque - Oro 50ml", "R$ 875,00", "NOVO"],
-  ["Moresque - Oroluna 50ml", "R$ 875,00", "NOVO"],
-  ["Parfums d’Elmar - Dalika 60ml", "R$ 1.290,00", "NOVO"],
-  ["Parfums d’Elmar - Elixir d’Amour 60ml", "R$ 1.350,00", "NOVO"],
-  ["Sora Dora - Gladiator Extrait 50ml", "R$ 1.250,00", "NOVO"],
-  ["Sospiro - Farsa 75ml", "R$ 850,00", ""],
+  ["BDK Parfums - Oud Abramad 100ml", "R$ 1,170.00", "NOVO"],
+  ["BDK Parfums - Tubereuse Imperiale 100ml", "R$ 1,250.00", "NOVO"],
+  ["BDK Parfums - Vanille Caviar 100ml", "R$ 1,170.00", "NOVO"],
+  ["BDK Parfums - Vanille Leather 100ml", "R$ 1,200.00", "NOVO"],
+  ["Boadicea The Victorious - Amber Sapphire 100ml", "R$ 2,700.00", "NOVO"],
+  ["Boadicea The Victorious - Bravery 100ml", "R$ 1,390.00", "NOVO"],
+  ["Boadicea The Victorious - Rebellious 100ml", "R$ 1,350.00", "NOVO"],
+  ["Boadicea The Victorious - Rose Sapphire 100ml", "R$ 2,520.00", "NOVO"],
+  ["Boadicea The Victorious - Royal Sapphires Collection", "R$ 1,200.00", "NOVO"],
+  ["Boadicea The Victorious - The Amber Gift Set", "R$ 1,150.00", "NOVO"],
+  ["Boadicea The Victorious - The Leather Gift Set", "R$ 1,150.00", "NOVO"],
+  ["Boadicea The Victorious - The Woody Gift Set", "R$ 1,150.00", "NOVO"],
+  ["Bortnikoff - Cuir de Cerise 50ml", "R$ 1,230.00", "NOVO"],
+  ["Bortnikoff - Sambac Rouge 50ml", "R$ 1,230.00", "NOVO"],
+  ["Casamorati - Bouquet Ideale 100ml tester w/cap", "R$ 820.00", "NOVO"],
+  ["Casamorati - Fiero 100ml", "R$ 990.00", "NOVO"],
+  ["Casamorati - Tempio d'Acqua 100ml tester w/cap", "R$ 820.00", "NOVO"],
+  ["Christian Provenzano - Colosseum 100ml", "R$ 1,390.00", "NOVO"],
+  ["Christian Provenzano - Cuir Elite 100ml", "R$ 1,390.00", "NOVO"],
+  ["Christian Provenzano - Inspirato 100ml", "R$ 1,350.00", "NOVO"],
+  ["Christian Provenzano - Mangostino 100ml", "R$ 1,390.00", "NOVO"],
+  ["Christian Provenzano - Massimo 100ml", "R$ 1,390.00", "NOVO"],
+  ["Christian Provenzano - Onda de Mar 100ml", "R$ 1,390.00", "NOVO"],
+  ["Christian Provenzano - Patchouli Noir 100ml", "R$ 1,390.00", "NOVO"],
+  ["Christian Provenzano - Rocca 100ml", "R$ 1,390.00", "NOVO"],
+  ["Cirque du Soleil - L'eau Parfum 100ml", "R$ 980.00", "NOVO"],
+  ["Creed - Love In Black 75ml", "R$ 1,450.00", "NOVO"],
+  ["Creed - Original Santal 100ml", "R$ 1,490.00", "NOVO"],
+  ["Creed - Royal Princess Oud 75ml", "R$ 1,450.00", "NOVO"],
+  ["D'Orsay - Dandy or not. G.A. 50ml", "R$ 900.00", "NOVO"],
+  ["D'Orsay - Dandy or not. G.A. 90ml", "R$ 1,150.00", "NOVO"],
+  ["Dior - Balade Sauvage 125ml sem caixa", "R$ 1,850.00", "NOVO"],
+  ["Dior - Purple Oud 125ml sem caixa", "R$ 1,850.00", "NOVO"],
+  ["Dior - Santal Noir 125ml sem caixa", "R$ 1,850.00", "NOVO"],
+  ["Gritti - Chantilly EDP 100ml", "R$ 900.00", "NOVO"],
+  ["Hind Al Oud - Oud Zayed 50ml", "R$ 1,850.00", "NOVO"],
+  ["Hind Al Oud - Tahnoun 50ml", "R$ 1,290.00", "NOVO"],
+  ["Initio - Lift me Up 90ml", "R$ 1,650.00", "NOVO"],
+  ["Initio - Wild Rush tester 90ml", "R$ 1,590.00", "NOVO"],
+  ["Lorenzo Pazzaglia - Coffeee Passion 50ml", "R$ 990.00", "NOVO"],
+  ["Lorenzo Pazzaglia - Pink Milk 50ml", "R$ 990.00", "NOVO"],
+  ["Lorenzo Pazzaglia - Summer Hammer 50ml", "R$ 1,040.00", "NOVO"],
+  ["M. Micallef - DesirToxic 100ml", "R$ 900.00", "NOVO"],
+  ["Miller Harris - Scherzo 100ml", "R$ 935.00", "NOVO"],
+  ["Mind Games - Checkmate 100ml", "R$ 1,690.00", "NOVO"],
+  ["Mind Games - French Defense 100ml", "R$ 1,690.00", "NOVO"],
+  ["Mind Games - Grand Master 100ml", "R$ 1,690.00", "NOVO"],
+  ["Mind Games - Kingside 100ml", "R$ 1,950.00", "NOVO"],
+  ["Mind Games - The Forward 100ml", "R$ 1,690.00", "NOVO"],
+  ["Moresque - Oro 50ml", "R$ 875.00", "NOVO"],
+  ["Nasomatto - Baraonda 30ml", "R$ 890.00", "NOVO"],
+  ["Nasomatto - Black Afgano 30ml", "R$ 870.00", "NOVO"],
+  ["Nasomatto - Blamage 30ml", "R$ 850.00", "NOVO"],
+  ["Nasomatto - Duro 30ml", "R$ 850.00", "NOVO"],
+  ["Nasomatto - Nudiflorum 30ml", "R$ 850.00", "NOVO"],
+  ["Nasomatto - Pardon 30ml", "R$ 870.00", "NOVO"],
+  ["Nasomatto - Sadonaso 30ml", "R$ 850.00", "NOVO"],
+  ["Orto Parisi - Boccanera 50ml", "R$ 920.00", "NOVO"],
+  ["Orto Parisi - Brutus 50ml", "R$ 920.00", "NOVO"],
+  ["Orto Parisi - Megamare 50ml", "R$ 930.00", "NOVO"],
+  ["Orto Parisi - Risvelium 50ml", "R$ 940.00", "NOVO"],
+  ["Orto Parisi - Seminalis 50ml", "R$ 920.00", "NOVO"],
+  ["Orto Parisi - Stercus 50ml", "R$ 920.00", "NOVO"],
+  ["Orto Parisi - Terroni 50ml", "R$ 940.00", "NOVO"],
+  ["Parfums d'Elmar - Dalika 60ml", "R$ 1,290.00", "NOVO"],
+  ["Perris Monte Carlo - Oud Imperial Extrait 50ml", "R$ 1,045.00", "NOVO"],
+  ["Sasva - Forbidden Words Alfaaz E Mamnooah 100ml", "R$ 1,150.00", "NOVO"],
+  ["Sasva - Forbidden Words Bombay Gourmand 100ml", "R$ 1,135.00", "NOVO"],
+  ["Sasva - Fruit Du Paradis Phal E Jannat 100ml", "R$ 1,135.00", "NOVO"],
+  ["Sasva - Saaqi 100ml", "R$ 1,150.00", "NOVO"],
+  ["Sospiro - Farsa 75ml", "R$ 850.00", "NOVO"],
+  ["Xerjoff - Avanguardia 100ml", "R$ 2,690.00", "NOVO"],
+  ["Xerjoff - Decas 100ml tester w/cap", "R$ 850.00", "NOVO"],
+  ["Xerjoff - Erba Gold 100ml", "R$ 1,050.00", "NOVO"],
+  ["Xerjoff - Erba Pura 100ml", "R$ 930.00", "NOVO"],
+  ["Xerjoff - Fierezza 100ml", "R$ 2,350.00", "NOVO"],
+  ["Xerjoff - Gibeon 50ml", "R$ 1,150.00", "NOVO"],
+  ["Xerjoff - Louis XV 1722 Rosé 50ml", "R$ 1,150.00", "NOVO"],
+  ["Xerjoff - Naxos 100ml", "R$ 930.00", "NOVO"],
+  ["Xerjoff - Nio 50ml", "R$ 1,050.00", "NOVO"],
+  ["Xerjoff - Perseveranza 100ml", "R$ 2,250.00", "NOVO"],
+  ["Xerjoff - Renaissance 100ml", "R$ 950.00", "NOVO"],
+  ["Xerjoff - Sketchbook P.33 Blank Page 100ml", "R$ 1,350.00", "NOVO"],
+  ["Xerjoff - Torino21 100ml", "R$ 1,100.00", "NOVO"],
+  ["Xerjoff - Torino22 50ml", "R$ 1,190.00", "NOVO"],
+  ["Xerjoff - Torino25 50ml tester w/cap", "R$ 825.00", "NOVO"],
 ];
 
 /**
@@ -104,7 +147,11 @@ function parsePrice(raw) {
   if (typeof raw !== "string") return undefined;
   const digits = raw.replace(/[^\d,\.]/g, "");
   if (!digits) return undefined;
-  const value = parseFloat(digits.replace(/\./g, "").replace(",", "."));
+  // Aceita "1.170,00" e "1,170.00": a planilha muda de formato conforme a
+  // localidade. O último separador só é decimal se vier com 1 ou 2 dígitos.
+  const decimal = digits.match(/[,.](\d{1,2})$/);
+  const integer = (decimal ? digits.slice(0, decimal.index) : digits).replace(/[,.]/g, "");
+  const value = parseFloat(decimal ? `${integer}.${decimal[1]}` : integer);
   return Number.isFinite(value) ? value : undefined;
 }
 
@@ -143,6 +190,12 @@ function toPerfume(rawName, rawPrice, rawStatus, index) {
     name = name.replace(/\bsem caixa\b/i, "").replace(/\s{2,}/g, " ").trim();
   }
 
+  let isTester = false;
+  if (/\btester\b/i.test(name)) {
+    isTester = true;
+    name = name.replace(/\btester\b(\s+w\/cap\b)?/i, "").replace(/\s{2,}/g, " ").trim();
+  }
+
   let volume;
   const volMatch = name.match(/(\d+(?:[.,]\d+)?\s?ml)\s*$/i);
   if (volMatch) {
@@ -159,12 +212,6 @@ function toPerfume(rawName, rawPrice, rawStatus, index) {
       name = name.replace(re, "").replace(/\s{2,}/g, " ").trim();
       break;
     }
-  }
-
-  let isTester = false;
-  if (/\btester\b/i.test(name)) {
-    isTester = true;
-    name = name.replace(/\btester\b/i, "").replace(/\s{2,}/g, " ").trim();
   }
 
   const status =
