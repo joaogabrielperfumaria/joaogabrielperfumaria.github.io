@@ -771,6 +771,375 @@ export const FRAGRANCES = {
       base: ["Almíscar", "Amberwood", "Cedro"],
     },
   },
+
+  "bdk-parfums-oud-abramad": {
+    image: "assets/perfumes/oud-abramad.webp",
+    source: "bdkparfums.com",
+    notes: {
+      top: ["Açafrão", "Gengibre"],
+      heart: ["Rosa da Turquia", "Cominho"],
+      base: ["Oud", "Guaiaco", "Cisto", "Incenso", "Patchouli", "Castóreo", "Orcanox"],
+    },
+  },
+
+  "bdk-parfums-tubereuse-imperiale": {
+    image: "assets/perfumes/tubereuse-imperiale.webp",
+    source: "bdkparfums.com",
+    notes: {
+      top: ["Pimenta-rosa", "Gerânio do Egito"],
+      heart: ["Tuberosa da Índia", "Ylang-Ylang de Comores", "Jasmim Sambac", "Íris", "Jasmim do Egito"],
+      base: ["Cashmeran", "Sândalo", "Incenso da Somália", "Baunilha de Madagascar", "Patchouli de Singapura", "Benjoim de Sumatra", "Cipreste"],
+    },
+  },
+
+  "bdk-parfums-vanille-caviar": {
+    image: "assets/perfumes/vanille-caviar.webp",
+    source: "bdkparfums.com",
+    notes: {
+      top: ["Broto de Cassis", "Cardamomo", "Cálamo"],
+      heart: ["Caviar de Baunilha", "Fava de Cacau", "Osmanthus"],
+      base: ["Baunilha de Madagascar", "Bálsamo do Peru", "Labdanum"],
+    },
+  },
+
+  "bdk-parfums-vanille-leather": {
+    image: "assets/perfumes/vanille-leather.webp",
+    source: "bdkparfums.com",
+    notes: {
+      top: ["Pimenta-rosa", "Acorde de Violeta"],
+      heart: ["Absoluto de Tuberosa da Índia", "Absoluto de Jasmim do Egito", "Absoluto de Flor de Laranjeira"],
+      base: ["Baunilha de Madagascar", "Patchouli da Indonésia", "Carvalho", "Acorde de Couro", "Íris", "Benjoim"],
+    },
+  },
+
+  "bortnikoff-cuir-de-cerise": {
+    image: "assets/perfumes/cuir-de-cerise.webp",
+    source: "bortnikoff.com",
+    notes: {
+      top: ["Cereja Ácida", "Açafrão"],
+      heart: ["Couro", "Azeitona", "Osmanthus", "Damasco"],
+      base: ["Oud", "Nagarmotha"],
+    },
+  },
+
+  "bortnikoff-sambac-rouge": {
+    image: "assets/perfumes/sambac-rouge.webp",
+    source: "bortnikoff.com",
+    notes: {
+      top: ["Cereja", "Pimenta-rosa", "Gengibre"],
+      heart: ["Jasmim Sambac", "Âmbar"],
+      base: ["Almíscar", "Framboesa", "Sândalo"],
+    },
+  },
+
+  "casamorati-bouquet-ideale": {
+    image: "assets/perfumes/bouquet-ideale.webp",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Canela", "Noz-moscada"],
+      heart: ["Cedro", "Guaiaco"],
+      base: ["Cumarina", "Almíscar", "Flores de Tabaco", "Baunilha"],
+    },
+  },
+
+  "casamorati-fiero": {
+    image: "assets/perfumes/fiero.webp",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Limão da Calábria", "Capim-limão", "Bergamota", "Laranja Sanguínea"],
+      heart: ["Hortelã", "Neroli"],
+      base: ["Cumarina", "Sândalo de Mysore", "Patchouli", "Vetiver"],
+    },
+  },
+
+  "casamorati-tempio-d-acqua": {
+    image: "assets/perfumes/tempio-d-acqua.webp",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Bergamota", "Pêssego", "Tangerina"],
+      heart: ["Óleo de Cisto", "Funcho", "Mahonial"],
+      base: ["Baunilha", "Mirra", "Ambroxan"],
+    },
+  },
+
+  "d-orsay-dandy-or-not-g-a": {
+    image: "assets/perfumes/dandy-or-not-ga.webp",
+    family: "Amadeirado",
+    perfumer: "Sidonie Lancesseur",
+    source: "dorsay.com",
+    notes: {
+      top: ["Cardamomo", "Toranja"],
+      heart: ["Chá Preto", "Flor de Laranjeira"],
+      base: ["Acorde de Couro", "Patchouli"],
+    },
+  },
+
+  "dior-balade-sauvage": {
+    image: "assets/perfumes/balade-sauvage.webp",
+  },
+
+  "dior-purple-oud": {
+    image: "assets/perfumes/purple-oud.webp",
+  },
+
+  "dior-santal-noir": {
+    image: "assets/perfumes/santal-noir.webp",
+  },
+
+  "hind-al-oud-oud-zayed": {
+    image: "assets/perfumes/oud-zayed.webp",
+  },
+
+  "lorenzo-pazzaglia-coffeee-passion": {
+    image: "assets/perfumes/coffeee-passion.webp",
+  },
+
+  "lorenzo-pazzaglia-pink-milk": {
+    image: "assets/perfumes/pink-milk.webp",
+  },
+
+  "lorenzo-pazzaglia-summer-hammer": {
+    image: "assets/perfumes/summer-hammer.webp",
+  },
+
+  "miller-harris-scherzo": {
+    image: "assets/perfumes/scherzo.webp",
+    family: "Floral · Âmbar",
+    perfumer: "Mathieu Nardin",
+    source: "millerharris.com",
+    notes: {
+      top: ["Tangerina", "Davana"],
+      heart: ["Olíbano", "Narciso", "Pittosporum", "Rosa Escura", "Peônia"],
+      base: ["Patchouli", "Baunilha", "Oud", "Nota Doce"],
+    },
+  },
+
+  "nasomatto-baraonda": {
+    image: "assets/perfumes/baraonda.webp",
+    source: "nasomatto.com",
+  },
+
+  "nasomatto-black-afgano": {
+    image: "assets/perfumes/black-afgano.webp",
+    source: "nasomatto.com",
+  },
+
+  "nasomatto-blamage": {
+    image: "assets/perfumes/blamage.webp",
+    source: "nasomatto.com",
+  },
+
+  "nasomatto-duro": {
+    image: "assets/perfumes/duro.webp",
+    source: "nasomatto.com",
+  },
+
+  "nasomatto-nudiflorum": {
+    image: "assets/perfumes/nudiflorum.webp",
+    source: "nasomatto.com",
+  },
+
+  "nasomatto-pardon": {
+    image: "assets/perfumes/pardon.webp",
+    source: "nasomatto.com",
+  },
+
+  "nasomatto-sadonaso": {
+    image: "assets/perfumes/sadonaso.webp",
+    source: "nasomatto.com",
+  },
+
+  "orto-parisi-boccanera": {
+    image: "assets/perfumes/boccanera.webp",
+    source: "ortoparisi.com",
+  },
+
+  "orto-parisi-brutus": {
+    image: "assets/perfumes/brutus.webp",
+    source: "ortoparisi.com",
+  },
+
+  "orto-parisi-megamare": {
+    image: "assets/perfumes/megamare.webp",
+    source: "ortoparisi.com",
+  },
+
+  "orto-parisi-risvelium": {
+    image: "assets/perfumes/risvelium.webp",
+    source: "ortoparisi.com",
+  },
+
+  "orto-parisi-seminalis": {
+    image: "assets/perfumes/seminalis.webp",
+    source: "ortoparisi.com",
+  },
+
+  "orto-parisi-stercus": {
+    image: "assets/perfumes/stercus.webp",
+    source: "ortoparisi.com",
+  },
+
+  "orto-parisi-terroni": {
+    image: "assets/perfumes/terroni.webp",
+    source: "ortoparisi.com",
+  },
+
+  "perris-monte-carlo-oud-imperial": {
+    image: "assets/perfumes/oud-imperial.webp",
+    source: "perrismontecarlo.com",
+    mainNotes: ["Oud", "Incenso"],
+  },
+
+  "sasva-forbidden-words-alfaaz-e-mamnooah": {
+    image: "assets/perfumes/forbidden-words.webp",
+  },
+
+  "sasva-forbidden-words-bombay-gourmand": {
+    image: "assets/perfumes/bombay-gourmand.webp",
+  },
+
+  "sasva-fruit-du-paradis-phal-e-jannat": {
+    image: "assets/perfumes/fruit-du-paradis.webp",
+  },
+
+  "sasva-saaqi": {
+    image: "assets/perfumes/saaqi.webp",
+  },
+
+  "xerjoff-avanguardia": {
+    image: "assets/perfumes/avanguardia.webp",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Tangerina", "Davana", "Cereja"],
+      heart: ["Violeta Negra", "Rosa Geraniol", "Óleo Fracionado de Patchouli"],
+      base: ["Fava Tonka", "Estoraque", "Olíbano"],
+    },
+  },
+
+  "xerjoff-decas": {
+    image: "assets/perfumes/decas.webp",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Tangerina Brasileira", "Tuberosa", "Tabaco"],
+      heart: ["Benjoim", "Opoponax", "Íris da Toscana"],
+      base: ["Almíscar", "Bálsamo de Tolu", "Baunilha Bourbon"],
+    },
+  },
+
+  "xerjoff-erba-gold": {
+    image: "assets/perfumes/erba-gold.webp",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Limão de Amalfi", "Laranja Brasileira", "Bergamota da Calábria", "Gengibre"],
+      heart: ["Cravo", "Maçã Verde", "Cardamomo da Guatemala", "Melão", "Pera"],
+      base: ["Âmbar", "Baunilha de Madagascar", "Almíscar", "Notas Amadeiradas"],
+    },
+  },
+
+  "xerjoff-erba-pura": {
+    image: "assets/perfumes/erba-pura.webp",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Limão", "Bergamota da Calábria", "Laranja da Sicília"],
+      heart: ["Frutas Mediterrâneas"],
+      base: ["Âmbar", "Fava de Baunilha de Madagascar", "Almíscar Branco"],
+    },
+  },
+
+  "xerjoff-fierezza": {
+    image: "assets/perfumes/fierezza.webp",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Pimenta-rosa", "Davana", "Pimenta de Sichuan", "Incenso"],
+      heart: ["Gerânio", "Nota Marinha", "Ambreta", "Frangipani"],
+      base: ["Âmbar", "Mirra", "Camurça"],
+    },
+  },
+
+  "xerjoff-gibeon": {
+    image: "assets/perfumes/gibeon.webp",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Neroli", "Canela do Ceilão"],
+      heart: ["Rosa da Bulgária", "Patchouli de Singapura", "Íris da Toscana"],
+      base: ["Sândalo Australiano", "Cedro", "Almíscar", "Baunilha de Madagascar", "Fava Tonka"],
+    },
+  },
+
+  "xerjoff-louis-xv-1722-rose": {
+    image: "assets/perfumes/louis-xv-rose.webp",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Cassis", "Framboesa", "Pera"],
+      heart: ["Gerânio", "Cedro", "Rosa"],
+      base: ["Almíscar", "Baunilha", "Amyris"],
+    },
+  },
+
+  "xerjoff-naxos": {
+    image: "assets/perfumes/naxos.webp",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Limão", "Bergamota", "Lavanda", "Incenso de Omã"],
+      heart: ["Jasmim Sambac", "Mel", "Canela", "Cashmere"],
+      base: ["Baunilha", "Folha de Tabaco", "Fava Tonka"],
+    },
+  },
+
+  "xerjoff-nio": {
+    image: "assets/perfumes/nio.webp",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Bergamota", "Pimenta-rosa", "Cardamomo", "Noz-moscada", "Neroli da Tunísia", "Rosa"],
+      heart: ["Folhas Verdes", "Jasmim"],
+      base: ["Âmbar", "Cedro", "Guaiaco", "Vetiver do Haiti"],
+    },
+  },
+
+  "xerjoff-perseveranza": {
+    image: "assets/perfumes/perseveranza.webp",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Gengibre", "Cidra", "Pimenta-da-jamaica"],
+      heart: ["Botão de Cravo", "Vetiver", "Elemi"],
+      base: ["Fava Tonka", "Estoraque", "Óleo de Cisto"],
+    },
+  },
+
+  "xerjoff-renaissance": {
+    image: "assets/perfumes/renaissance.webp",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Tangerina", "Limão", "Bergamota da Calábria", "Bigarade", "Petitgrain"],
+      heart: ["Hortelã", "Lírio-do-vale", "Rosa da Bulgária"],
+      base: ["Almíscar", "Cedro", "Âmbar", "Patchouli"],
+    },
+  },
+
+  "xerjoff-sketchbook-p-33-blank-page": {
+    image: "assets/perfumes/p33-blank-page.webp",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Maçã", "Bergamota", "Toranja", "Pimenta-rosa"],
+      heart: ["Canela", "Íris", "Cipreste"],
+      base: ["Âmbar", "Cedro", "Almíscar"],
+    },
+  },
+
+  "xerjoff-torino21": {
+    image: "assets/perfumes/torino21.webp",
+    source: "xerjoff.com",
+  },
+
+  "xerjoff-torino22": {
+    image: "assets/perfumes/torino22.webp",
+    source: "xerjoff.com",
+  },
+
+  "xerjoff-torino25": {
+    image: "assets/perfumes/torino25.webp",
+    source: "xerjoff.com",
+  },
 };
 
 // A planilha passou a grafar "Histoires des Parfums"; mantém o vínculo com o 1740.
