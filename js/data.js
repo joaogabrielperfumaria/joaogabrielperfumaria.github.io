@@ -76,7 +76,6 @@ const FALLBACK_ROWS = [
   ["Dior - Santal Noir 125ml sem caixa", "R$ 1,850.00", "NOVO"],
   ["Gritti - Chantilly EDP 100ml", "R$ 900.00", "NOVO"],
   ["Hind Al Oud - Oud Zayed 50ml", "R$ 1,850.00", "NOVO"],
-  ["Hind Al Oud - Tahnoun 50ml", "R$ 1,290.00", "NOVO"],
   ["Initio - Lift me Up 90ml", "R$ 1,650.00", "NOVO"],
   ["Initio - Wild Rush tester 90ml", "R$ 1,590.00", "NOVO"],
   ["Lorenzo Pazzaglia - Coffeee Passion 50ml", "R$ 990.00", "NOVO"],
