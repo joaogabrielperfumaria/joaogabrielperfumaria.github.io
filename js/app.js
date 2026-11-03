@@ -362,18 +362,22 @@ function populateFilters() {
 async function initCatalog() {
   const grid = $("#catalog-grid");
   renderSkeletons(grid);
-  const { perfumes, source } = await loadCatalog();
+  let perfumes;
+  try {
+    ({ perfumes } = await loadCatalog());
+  } catch (err) {
+    console.error("Catálogo indisponível.", err);
+    grid.replaceChildren();
+    const msg = document.createElement("p");
+    msg.className = "catalog-note";
+    msg.textContent =
+      "Não foi possível carregar o catálogo agora. Chame no WhatsApp para ver os perfumes disponíveis.";
+    grid.append(msg);
+    return;
+  }
   state.perfumes = perfumes;
   populateFilters();
   renderCatalog();
-
-  if (source === "fallback") {
-    const note = document.createElement("p");
-    note.className = "catalog-note";
-    note.textContent =
-      "Exibindo a última seleção conhecida — valores e disponibilidade são confirmados no atendimento.";
-    grid.insertAdjacentElement("afterend", note);
-  }
 }
 
 /* ── Perfil olfativo ──────────────────────────────────────── */

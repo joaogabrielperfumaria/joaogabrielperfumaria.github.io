@@ -3,3 +3,6 @@
 .orig/
 
 .DS_Store
+
+# Credencial de produção usada só pelo scripts/sync-estoque.mjs.
+credenciais-producao.txt

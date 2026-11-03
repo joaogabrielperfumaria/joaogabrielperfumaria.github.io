@@ -1140,7 +1140,28 @@ export const FRAGRANCES = {
     image: "assets/perfumes/torino25.webp",
     source: "xerjoff.com",
   },
+  "histoires-de-parfums-1899": {
+    family: "Oriental Amadeirado",
+    source: "histoiresdeparfums.com",
+    notes: {
+      top: ["Bergamota Italiana", "Zimbro", "Pimenta Preta"],
+      heart: ["Flor de Laranjeira", "Íris Florentina", "Canela"],
+      base: ["Baunilha", "Vetiver", "Âmbar"],
+    },
+  },
+
+  "bond-no-9-bleecker-street": {
+    source: "bondno9.com",
+    notes: {
+      top: ["Folha de Violeta", "Cassis", "Tomilho"],
+      heart: ["Jasmim", "Cedro", "Canela"],
+      base: ["Musgo de Carvalho", "Camurça", "Patchouli", "Âmbar", "Baunilha"],
+    },
+  },
 };
+
+// O estoque grafa "Histories des Parfums" (marca com erro de digitação) e "Histoires De Parfums".
+FRAGRANCES["histories-des-parfums-1740"] = FRAGRANCES["histoires-de-parfums-1740"];
 
 // A planilha passou a grafar "Histoires des Parfums"; mantém o vínculo com o 1740.
 FRAGRANCES["histoires-des-parfums-1740"] = FRAGRANCES["histoires-de-parfums-1740"];

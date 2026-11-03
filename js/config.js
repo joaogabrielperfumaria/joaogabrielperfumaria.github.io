@@ -19,15 +19,6 @@ export const CONFIG = {
       "Olá! Tenho interesse nos perfumes a pronta entrega. Gostaria de receber mais informações.",
   },
 
-  // Planilha pública (somente leitura). O site consome o endpoint gviz,
-  // que devolve JSON sem exigir chave de API.
-  sheet: {
-    id: "1HK-8fpyJaVFsMW0oZn3Se0q8UVijOvSofD_aBbbeYJc",
-    gid: "0",
-    // Cache local (sessionStorage) para navegação fluida. Em milissegundos.
-    cacheTtl: 10 * 60 * 1000,
-  },
-
   youtube: {
     channelUrl: "https://www.youtube.com/@Jo%C3%A3oGabrielGomes",
     channelName: "João Gabriel Gomes",

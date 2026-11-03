@@ -1,0 +1,815 @@
+{
+  "updatedAt": "2026-11-03T14:05:08.118Z",
+  "items": [
+    {
+      "id": "bdk-parfums-oud-abramad-100ml",
+      "slug": "bdk-parfums-oud-abramad",
+      "brand": "BDK Parfums",
+      "name": "Oud Abramad",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1170
+    },
+    {
+      "id": "bdk-parfums-tubereuse-imperiale-100ml",
+      "slug": "bdk-parfums-tubereuse-imperiale",
+      "brand": "BDK Parfums",
+      "name": "Tubereuse Imperiale",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1250
+    },
+    {
+      "id": "bdk-parfums-vanille-caviar-100ml",
+      "slug": "bdk-parfums-vanille-caviar",
+      "brand": "BDK Parfums",
+      "name": "Vanille Caviar",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1170
+    },
+    {
+      "id": "bdk-parfums-vanille-leather-100ml",
+      "slug": "bdk-parfums-vanille-leather",
+      "brand": "BDK Parfums",
+      "name": "Vanille Leather",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1200
+    },
+    {
+      "id": "boadicea-the-victorious-amber-sapphire-100ml",
+      "slug": "boadicea-the-victorious-amber-sapphire",
+      "brand": "Boadicea The Victorious",
+      "name": "Amber Sapphire",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 2700
+    },
+    {
+      "id": "boadicea-the-victorious-bravery-100ml",
+      "slug": "boadicea-the-victorious-bravery",
+      "brand": "Boadicea The Victorious",
+      "name": "Bravery",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1390
+    },
+    {
+      "id": "boadicea-the-victorious-rebellious-100ml",
+      "slug": "boadicea-the-victorious-rebellious",
+      "brand": "Boadicea The Victorious",
+      "name": "Rebellious",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1350
+    },
+    {
+      "id": "boadicea-the-victorious-rose-sapphire-100ml",
+      "slug": "boadicea-the-victorious-rose-sapphire",
+      "brand": "Boadicea The Victorious",
+      "name": "Rose Sapphire",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 2520
+    },
+    {
+      "id": "boadicea-the-victorious-royal-sapphires-collection",
+      "slug": "boadicea-the-victorious-royal-sapphires-collection",
+      "brand": "Boadicea The Victorious",
+      "name": "Royal Sapphires Collection",
+      "isTester": false,
+      "noBox": false,
+      "price": 1200
+    },
+    {
+      "id": "boadicea-the-victorious-the-amber-gift-set",
+      "slug": "boadicea-the-victorious-the-amber-gift-set",
+      "brand": "Boadicea The Victorious",
+      "name": "The Amber Gift Set",
+      "isTester": false,
+      "noBox": false,
+      "price": 1150
+    },
+    {
+      "id": "boadicea-the-victorious-the-leather-gift-set",
+      "slug": "boadicea-the-victorious-the-leather-gift-set",
+      "brand": "Boadicea The Victorious",
+      "name": "The Leather Gift Set",
+      "isTester": false,
+      "noBox": false,
+      "price": 1150
+    },
+    {
+      "id": "boadicea-the-victorious-the-woody-gift-set",
+      "slug": "boadicea-the-victorious-the-woody-gift-set",
+      "brand": "Boadicea The Victorious",
+      "name": "The Woody Gift Set",
+      "isTester": false,
+      "noBox": false,
+      "price": 1150
+    },
+    {
+      "id": "bortnikoff-cuir-de-cerise-50ml",
+      "slug": "bortnikoff-cuir-de-cerise",
+      "brand": "Bortnikoff",
+      "name": "Cuir de Cerise",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1230,
+      "status": "Lançamento"
+    },
+    {
+      "id": "bortnikoff-sambac-rouge-50ml",
+      "slug": "bortnikoff-sambac-rouge",
+      "brand": "Bortnikoff",
+      "name": "Sambac Rouge",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1230,
+      "status": "Lançamento"
+    },
+    {
+      "id": "casamorati-bouquet-ideale-100ml-tester",
+      "slug": "casamorati-bouquet-ideale",
+      "brand": "Casamorati",
+      "name": "Bouquet Ideale",
+      "volume": "100ml",
+      "isTester": true,
+      "noBox": false,
+      "price": 820
+    },
+    {
+      "id": "casamorati-fiero-100ml",
+      "slug": "casamorati-fiero",
+      "brand": "Casamorati",
+      "name": "Fiero",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 990
+    },
+    {
+      "id": "casamorati-tempio-d-acqua-100ml-tester",
+      "slug": "casamorati-tempio-d-acqua",
+      "brand": "Casamorati",
+      "name": "Tempio d'Acqua",
+      "volume": "100ml",
+      "isTester": true,
+      "noBox": false,
+      "price": 820
+    },
+    {
+      "id": "christian-provenzano-colosseum-100ml",
+      "slug": "christian-provenzano-colosseum",
+      "brand": "Christian Provenzano",
+      "name": "Colosseum",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1390
+    },
+    {
+      "id": "christian-provenzano-cuir-elite-100ml",
+      "slug": "christian-provenzano-cuir-elite",
+      "brand": "Christian Provenzano",
+      "name": "Cuir Elite",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1390
+    },
+    {
+      "id": "christian-provenzano-inspirato-100ml",
+      "slug": "christian-provenzano-inspirato",
+      "brand": "Christian Provenzano",
+      "name": "Inspirato",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1350
+    },
+    {
+      "id": "christian-provenzano-mangostino-100ml",
+      "slug": "christian-provenzano-mangostino",
+      "brand": "Christian Provenzano",
+      "name": "Mangostino",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1390
+    },
+    {
+      "id": "christian-provenzano-massimo-100ml",
+      "slug": "christian-provenzano-massimo",
+      "brand": "Christian Provenzano",
+      "name": "Massimo",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1390
+    },
+    {
+      "id": "christian-provenzano-onda-de-mar-100ml",
+      "slug": "christian-provenzano-onda-de-mar",
+      "brand": "Christian Provenzano",
+      "name": "Onda de Mar",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1390
+    },
+    {
+      "id": "christian-provenzano-patchouli-noir-100ml",
+      "slug": "christian-provenzano-patchouli-noir",
+      "brand": "Christian Provenzano",
+      "name": "Patchouli Noir",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1390
+    },
+    {
+      "id": "christian-provenzano-rocca-100ml",
+      "slug": "christian-provenzano-rocca",
+      "brand": "Christian Provenzano",
+      "name": "Rocca",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1390
+    },
+    {
+      "id": "cirque-du-soleil-l-eau-parfum-100ml",
+      "slug": "cirque-du-soleil-l-eau-parfum",
+      "brand": "Cirque du Soleil",
+      "name": "L'eau Parfum",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 980
+    },
+    {
+      "id": "creed-love-in-black-75ml",
+      "slug": "creed-love-in-black",
+      "brand": "Creed",
+      "name": "Love In Black",
+      "volume": "75ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1450
+    },
+    {
+      "id": "creed-original-santal-100ml",
+      "slug": "creed-original-santal",
+      "brand": "Creed",
+      "name": "Original Santal",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1490
+    },
+    {
+      "id": "creed-royal-princess-oud-75ml",
+      "slug": "creed-royal-princess-oud",
+      "brand": "Creed",
+      "name": "Royal Princess Oud",
+      "volume": "75ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1450
+    },
+    {
+      "id": "d-orsay-dandy-or-not-g-a-50ml",
+      "slug": "d-orsay-dandy-or-not-g-a",
+      "brand": "D'Orsay",
+      "name": "Dandy or not. G.A.",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 900
+    },
+    {
+      "id": "d-orsay-dandy-or-not-g-a-90ml",
+      "slug": "d-orsay-dandy-or-not-g-a",
+      "brand": "D'Orsay",
+      "name": "Dandy or not. G.A.",
+      "volume": "90ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1150
+    },
+    {
+      "id": "dior-balade-sauvage-125ml-sem-caixa",
+      "slug": "dior-balade-sauvage",
+      "brand": "Dior",
+      "name": "Balade Sauvage",
+      "volume": "125ml",
+      "isTester": false,
+      "noBox": true,
+      "price": 1850
+    },
+    {
+      "id": "dior-purple-oud-125ml-sem-caixa",
+      "slug": "dior-purple-oud",
+      "brand": "Dior",
+      "name": "Purple Oud",
+      "volume": "125ml",
+      "isTester": false,
+      "noBox": true,
+      "price": 1850
+    },
+    {
+      "id": "dior-santal-noir-125ml-sem-caixa",
+      "slug": "dior-santal-noir",
+      "brand": "Dior",
+      "name": "Santal Noir",
+      "volume": "125ml",
+      "isTester": false,
+      "noBox": true,
+      "price": 1850
+    },
+    {
+      "id": "gritti-chantilly-100ml",
+      "slug": "gritti-chantilly",
+      "brand": "Gritti",
+      "name": "Chantilly",
+      "volume": "100ml",
+      "concentration": "EDP",
+      "isTester": false,
+      "noBox": false,
+      "price": 900
+    },
+    {
+      "id": "initio-lift-me-up-90ml",
+      "slug": "initio-lift-me-up",
+      "brand": "Initio",
+      "name": "Lift me Up",
+      "volume": "90ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1650
+    },
+    {
+      "id": "initio-wild-rush-90ml-tester",
+      "slug": "initio-wild-rush",
+      "brand": "Initio",
+      "name": "Wild Rush",
+      "volume": "90ml",
+      "isTester": true,
+      "noBox": false,
+      "price": 1590
+    },
+    {
+      "id": "lorenzo-pazzaglia-coffeee-passion-50ml",
+      "slug": "lorenzo-pazzaglia-coffeee-passion",
+      "brand": "Lorenzo Pazzaglia",
+      "name": "Coffeee Passion",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 990
+    },
+    {
+      "id": "lorenzo-pazzaglia-pink-milk-50ml",
+      "slug": "lorenzo-pazzaglia-pink-milk",
+      "brand": "Lorenzo Pazzaglia",
+      "name": "Pink Milk",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 990
+    },
+    {
+      "id": "lorenzo-pazzaglia-summer-hammer-50ml",
+      "slug": "lorenzo-pazzaglia-summer-hammer",
+      "brand": "Lorenzo Pazzaglia",
+      "name": "Summer Hammer",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1040
+    },
+    {
+      "id": "m-micallef-desirtoxic-100ml",
+      "slug": "m-micallef-desirtoxic",
+      "brand": "M. Micallef",
+      "name": "DesirToxic",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 900
+    },
+    {
+      "id": "mind-games-checkmate-100ml",
+      "slug": "mind-games-checkmate",
+      "brand": "Mind Games",
+      "name": "Checkmate",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1690
+    },
+    {
+      "id": "mind-games-french-defense-100ml",
+      "slug": "mind-games-french-defense",
+      "brand": "Mind Games",
+      "name": "French Defense",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1690
+    },
+    {
+      "id": "mind-games-grand-master-100ml",
+      "slug": "mind-games-grand-master",
+      "brand": "Mind Games",
+      "name": "Grand Master",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1690
+    },
+    {
+      "id": "mind-games-kingside-100ml",
+      "slug": "mind-games-kingside",
+      "brand": "Mind Games",
+      "name": "Kingside",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1950
+    },
+    {
+      "id": "mind-games-the-forward-100ml",
+      "slug": "mind-games-the-forward",
+      "brand": "Mind Games",
+      "name": "The Forward",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1690
+    },
+    {
+      "id": "moresque-oro-50ml",
+      "slug": "moresque-oro",
+      "brand": "Moresque",
+      "name": "Oro",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 875
+    },
+    {
+      "id": "nasomatto-baraonda-30ml",
+      "slug": "nasomatto-baraonda",
+      "brand": "Nasomatto",
+      "name": "Baraonda",
+      "volume": "30ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 890
+    },
+    {
+      "id": "nasomatto-black-afgano-30ml",
+      "slug": "nasomatto-black-afgano",
+      "brand": "Nasomatto",
+      "name": "Black Afgano",
+      "volume": "30ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 870
+    },
+    {
+      "id": "nasomatto-blamage-30ml",
+      "slug": "nasomatto-blamage",
+      "brand": "Nasomatto",
+      "name": "Blamage",
+      "volume": "30ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 850
+    },
+    {
+      "id": "nasomatto-duro-30ml",
+      "slug": "nasomatto-duro",
+      "brand": "Nasomatto",
+      "name": "Duro",
+      "volume": "30ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 850
+    },
+    {
+      "id": "nasomatto-nudiflorum-30ml",
+      "slug": "nasomatto-nudiflorum",
+      "brand": "Nasomatto",
+      "name": "Nudiflorum",
+      "volume": "30ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 850
+    },
+    {
+      "id": "nasomatto-sadonaso-30ml",
+      "slug": "nasomatto-sadonaso",
+      "brand": "Nasomatto",
+      "name": "Sadonaso",
+      "volume": "30ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 850
+    },
+    {
+      "id": "orto-parisi-boccanera-50ml",
+      "slug": "orto-parisi-boccanera",
+      "brand": "Orto Parisi",
+      "name": "Boccanera",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 920
+    },
+    {
+      "id": "orto-parisi-brutus-50ml",
+      "slug": "orto-parisi-brutus",
+      "brand": "Orto Parisi",
+      "name": "Brutus",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 920
+    },
+    {
+      "id": "orto-parisi-megamare-50ml",
+      "slug": "orto-parisi-megamare",
+      "brand": "Orto Parisi",
+      "name": "Megamare",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 930
+    },
+    {
+      "id": "orto-parisi-risvelium-50ml",
+      "slug": "orto-parisi-risvelium",
+      "brand": "Orto Parisi",
+      "name": "Risvelium",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 940
+    },
+    {
+      "id": "orto-parisi-seminalis-50ml",
+      "slug": "orto-parisi-seminalis",
+      "brand": "Orto Parisi",
+      "name": "Seminalis",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 920
+    },
+    {
+      "id": "orto-parisi-stercus-50ml",
+      "slug": "orto-parisi-stercus",
+      "brand": "Orto Parisi",
+      "name": "Stercus",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 920
+    },
+    {
+      "id": "orto-parisi-terroni-50ml",
+      "slug": "orto-parisi-terroni",
+      "brand": "Orto Parisi",
+      "name": "Terroni",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 940
+    },
+    {
+      "id": "parfums-d-elmar-dalika-60ml",
+      "slug": "parfums-d-elmar-dalika",
+      "brand": "Parfums d'Elmar",
+      "name": "Dalika",
+      "volume": "60ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1290
+    },
+    {
+      "id": "perris-monte-carlo-oud-imperial-50ml",
+      "slug": "perris-monte-carlo-oud-imperial",
+      "brand": "Perris Monte Carlo",
+      "name": "Oud Imperial",
+      "volume": "50ml",
+      "concentration": "Extrait",
+      "isTester": false,
+      "noBox": false,
+      "price": 1045
+    },
+    {
+      "id": "sasva-forbidden-words-alfaaz-e-mamnooah-100ml",
+      "slug": "sasva-forbidden-words-alfaaz-e-mamnooah",
+      "brand": "Sasva",
+      "name": "Forbidden Words Alfaaz E Mamnooah",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1150
+    },
+    {
+      "id": "sasva-forbidden-words-bombay-gourmand-100ml",
+      "slug": "sasva-forbidden-words-bombay-gourmand",
+      "brand": "Sasva",
+      "name": "Forbidden Words Bombay Gourmand",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1135
+    },
+    {
+      "id": "sasva-fruit-du-paradis-phal-e-jannat-100ml",
+      "slug": "sasva-fruit-du-paradis-phal-e-jannat",
+      "brand": "Sasva",
+      "name": "Fruit Du Paradis Phal E Jannat",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1135
+    },
+    {
+      "id": "sasva-saaqi-100ml",
+      "slug": "sasva-saaqi",
+      "brand": "Sasva",
+      "name": "Saaqi",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1150
+    },
+    {
+      "id": "sospiro-farsa-75ml",
+      "slug": "sospiro-farsa",
+      "brand": "Sospiro",
+      "name": "Farsa",
+      "volume": "75ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 850
+    },
+    {
+      "id": "xerjoff-avanguardia-100ml",
+      "slug": "xerjoff-avanguardia",
+      "brand": "Xerjoff",
+      "name": "Avanguardia",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 2690
+    },
+    {
+      "id": "xerjoff-decas-100ml-tester",
+      "slug": "xerjoff-decas",
+      "brand": "Xerjoff",
+      "name": "Decas",
+      "volume": "100ml",
+      "isTester": true,
+      "noBox": false,
+      "price": 850
+    },
+    {
+      "id": "xerjoff-erba-gold-100ml",
+      "slug": "xerjoff-erba-gold",
+      "brand": "Xerjoff",
+      "name": "Erba Gold",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1050
+    },
+    {
+      "id": "xerjoff-erba-pura-100ml",
+      "slug": "xerjoff-erba-pura",
+      "brand": "Xerjoff",
+      "name": "Erba Pura",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 930
+    },
+    {
+      "id": "xerjoff-fierezza-100ml",
+      "slug": "xerjoff-fierezza",
+      "brand": "Xerjoff",
+      "name": "Fierezza",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 2350
+    },
+    {
+      "id": "xerjoff-gibeon-50ml",
+      "slug": "xerjoff-gibeon",
+      "brand": "Xerjoff",
+      "name": "Gibeon",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1150
+    },
+    {
+      "id": "xerjoff-louis-xv-1722-rose-50ml",
+      "slug": "xerjoff-louis-xv-1722-rose",
+      "brand": "Xerjoff",
+      "name": "Louis XV 1722 Rosé",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1150
+    },
+    {
+      "id": "xerjoff-naxos-100ml",
+      "slug": "xerjoff-naxos",
+      "brand": "Xerjoff",
+      "name": "Naxos",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 930
+    },
+    {
+      "id": "xerjoff-nio-50ml",
+      "slug": "xerjoff-nio",
+      "brand": "Xerjoff",
+      "name": "Nio",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1050
+    },
+    {
+      "id": "xerjoff-perseveranza-100ml",
+      "slug": "xerjoff-perseveranza",
+      "brand": "Xerjoff",
+      "name": "Perseveranza",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 2250
+    },
+    {
+      "id": "xerjoff-renaissance-100ml",
+      "slug": "xerjoff-renaissance",
+      "brand": "Xerjoff",
+      "name": "Renaissance",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 950
+    },
+    {
+      "id": "xerjoff-sketchbook-p-33-blank-page-100ml",
+      "slug": "xerjoff-sketchbook-p-33-blank-page",
+      "brand": "Xerjoff",
+      "name": "Sketchbook P.33 Blank Page",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1350
+    },
+    {
+      "id": "xerjoff-torino21-100ml",
+      "slug": "xerjoff-torino21",
+      "brand": "Xerjoff",
+      "name": "Torino21",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1100
+    },
+    {
+      "id": "xerjoff-torino22-50ml",
+      "slug": "xerjoff-torino22",
+      "brand": "Xerjoff",
+      "name": "Torino22",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1190
+    }
+  ]
+}

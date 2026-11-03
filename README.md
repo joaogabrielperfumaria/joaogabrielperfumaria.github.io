@@ -29,16 +29,16 @@ Nada precisa ser compilado. Após publicar:
 | O que | Onde |
 |---|---|
 | Número do WhatsApp e mensagens | [`js/config.js`](js/config.js) |
-| Planilha do catálogo (ID/aba) | [`js/config.js`](js/config.js) |
+| Catálogo (itens disponíveis) | [`js/catalog.json`](js/catalog.json), gerado por [`scripts/sync-estoque.mjs`](scripts/sync-estoque.mjs) |
 | Link do canal e do simulador | [`js/config.js`](js/config.js) |
 | Vídeos em destaque | [`js/videos.js`](js/videos.js) |
 | Fotos e pirâmide olfativa | [`js/fragrances.js`](js/fragrances.js) |
-| Snapshot de fallback do catálogo | [`js/data.js`](js/data.js) (`FALLBACK_ROWS`) |
 | Modalidades de envio e seguros | [`index.html`](index.html), seção "Entrega & Segurança" |
 
-**Não há variáveis de ambiente nem chaves de API.** A planilha é lida pelo
-endpoint público somente-leitura `gviz` do Google Sheets — nenhuma credencial
-existe no frontend, por decisão de segurança.
+**O site não usa credenciais.** Quem as usa é o script de sync, que lê o
+credenciais de produção (role somente leitura: SERVER, PORT, DATABASE, USER_ID, PASSWORD) do arquivo
+`credenciais-producao.txt`, ignorado pelo git e
+consulta o estoque numa transação somente leitura.
 
 ## Arquitetura
 
@@ -56,17 +56,16 @@ assets/perfumes/   — fotos oficiais normalizadas (WebP 900×900)
 
 ### Fluxo de dados do catálogo
 
-1. `loadCatalog()` tenta o cache de sessão (10 min), depois a planilha ao
-   vivo, depois o snapshot local — nesta ordem. A interface nunca quebra se a
-   planilha estiver fora do ar; apenas exibe a última seleção conhecida com um
-   aviso discreto.
-2. Cada linha `"Marca - Nome Volume" | valor | status` vira um objeto
-   `Perfume` (`brand`, `name`, `volume`, `concentration?`, `isTester?`,
-   `price`, `status`). Campos ausentes na planilha simplesmente não são
-   exibidos — nada é inventado (por isso não há perfil olfativo hoje: a
-   planilha não traz esses dados; quando trouxer, o modelo já comporta).
-3. Para migrar para um banco/API no futuro, basta trocar a implementação de
-   `loadCatalog()` — nenhum componente depende da estrutura da planilha.
+1. `node scripts/sync-estoque.mjs` consulta `products` + `stocks` (mesma junção
+   do relatório `products-in-stock`), mantém só quem tem saldo disponível
+   (`QuantityOnHand - ReservedQuantity > 0`) e grava `js/catalog.json` com
+   campos públicos (marca, nome, volume, concentração, preço, "Disponível").
+   Saldo, código e IDs internos nunca saem do banco. Se a consulta falhar,
+   vier vazia, houver duplicidade, linha não interpretada ou queda > 50%, o
+   catálogo anterior é preservado (`--force` aceita a queda; `--dry` só valida).
+2. `loadCatalog()` lê `js/catalog.json` (sempre revalidando, sem cache de
+   sessão) e junta o perfil de `fragrances.js` pelo `slug`. Sem catálogo, a
+   página mostra uma mensagem clara.
 
 ### Perfil olfativo e fotos
 
@@ -86,7 +85,7 @@ Regras que o arquivo segue, alinhadas ao briefing:
   esses números, e estimá-los seria inventar dado.
 - Campo ausente simplesmente não aparece na interface.
 
-**Para adicionar um perfume novo à planilha:** abra o site com o console
+**Para um perfume novo no estoque:** rode o sync, abra o site com o console
 aberto. Se faltar o perfil, o console informa exatamente qual chave criar
 em `fragrances.js`. As fotos ficam em `assets/perfumes/` como WebP 900×900
 (as originais das marcas somam 4,8 MB; normalizadas, 384 KB no total).
@@ -101,7 +100,7 @@ YouTube Data API (a chave ficaria no servidor, nunca no frontend).
 
 ### Segurança
 
-- Nenhuma credencial no frontend; planilha acessada em modo somente leitura.
+- Nenhuma credencial no frontend; o sync só faz SELECT em transação READ ONLY.
 - Todo dado externo entra no DOM via `textContent` — nunca `innerHTML`.
 - IDs de vídeo validados por regex antes de montar URLs.
 - Links externos com `rel="noopener noreferrer"`; WhatsApp via
