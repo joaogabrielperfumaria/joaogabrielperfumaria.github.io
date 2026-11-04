@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T14:05:08.118Z",
+  "updatedAt": "2026-11-04T01:54:25.980Z",
   "items": [
     {
       "id": "bdk-parfums-oud-abramad-100ml",
@@ -188,16 +188,6 @@
       "isTester": false,
       "noBox": false,
       "price": 1390
-    },
-    {
-      "id": "christian-provenzano-inspirato-100ml",
-      "slug": "christian-provenzano-inspirato",
-      "brand": "Christian Provenzano",
-      "name": "Inspirato",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1350
     },
     {
       "id": "christian-provenzano-mangostino-100ml",
@@ -421,16 +411,6 @@
       "price": 1690
     },
     {
-      "id": "mind-games-french-defense-100ml",
-      "slug": "mind-games-french-defense",
-      "brand": "Mind Games",
-      "name": "French Defense",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1690
-    },
-    {
       "id": "mind-games-grand-master-100ml",
       "slug": "mind-games-grand-master",
       "brand": "Mind Games",
@@ -609,17 +589,6 @@
       "isTester": false,
       "noBox": false,
       "price": 1290
-    },
-    {
-      "id": "perris-monte-carlo-oud-imperial-50ml",
-      "slug": "perris-monte-carlo-oud-imperial",
-      "brand": "Perris Monte Carlo",
-      "name": "Oud Imperial",
-      "volume": "50ml",
-      "concentration": "Extrait",
-      "isTester": false,
-      "noBox": false,
-      "price": 1045
     },
     {
       "id": "sasva-forbidden-words-alfaaz-e-mamnooah-100ml",
