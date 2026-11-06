@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T01:54:25.980Z",
+  "updatedAt": "2026-11-06T01:07:09.600Z",
   "items": [
     {
       "id": "bdk-parfums-oud-abramad-100ml",
@@ -60,16 +60,6 @@
       "isTester": false,
       "noBox": false,
       "price": 1390
-    },
-    {
-      "id": "boadicea-the-victorious-rebellious-100ml",
-      "slug": "boadicea-the-victorious-rebellious",
-      "brand": "Boadicea The Victorious",
-      "name": "Rebellious",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1350
     },
     {
       "id": "boadicea-the-victorious-rose-sapphire-100ml",
@@ -391,16 +381,6 @@
       "price": 1040
     },
     {
-      "id": "m-micallef-desirtoxic-100ml",
-      "slug": "m-micallef-desirtoxic",
-      "brand": "M. Micallef",
-      "name": "DesirToxic",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 900
-    },
-    {
       "id": "mind-games-checkmate-100ml",
       "slug": "mind-games-checkmate",
       "brand": "Mind Games",
@@ -651,16 +631,6 @@
       "price": 2690
     },
     {
-      "id": "xerjoff-decas-100ml-tester",
-      "slug": "xerjoff-decas",
-      "brand": "Xerjoff",
-      "name": "Decas",
-      "volume": "100ml",
-      "isTester": true,
-      "noBox": false,
-      "price": 850
-    },
-    {
       "id": "xerjoff-erba-gold-100ml",
       "slug": "xerjoff-erba-gold",
       "brand": "Xerjoff",
@@ -729,16 +699,6 @@
       "isTester": false,
       "noBox": false,
       "price": 1050
-    },
-    {
-      "id": "xerjoff-perseveranza-100ml",
-      "slug": "xerjoff-perseveranza",
-      "brand": "Xerjoff",
-      "name": "Perseveranza",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 2250
     },
     {
       "id": "xerjoff-renaissance-100ml",
