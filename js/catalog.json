@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T01:07:09.600Z",
+  "updatedAt": "2026-11-07T01:09:28.468Z",
   "items": [
     {
       "id": "bdk-parfums-oud-abramad-100ml",
@@ -649,16 +649,6 @@
       "isTester": false,
       "noBox": false,
       "price": 930
-    },
-    {
-      "id": "xerjoff-fierezza-100ml",
-      "slug": "xerjoff-fierezza",
-      "brand": "Xerjoff",
-      "name": "Fierezza",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 2350
     },
     {
       "id": "xerjoff-gibeon-50ml",
