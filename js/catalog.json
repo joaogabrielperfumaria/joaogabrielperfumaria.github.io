@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T01:09:28.468Z",
+  "updatedAt": "2026-11-10T01:05:14.134Z",
   "items": [
     {
       "id": "bdk-parfums-oud-abramad-100ml",
@@ -304,16 +304,6 @@
       "slug": "dior-purple-oud",
       "brand": "Dior",
       "name": "Purple Oud",
-      "volume": "125ml",
-      "isTester": false,
-      "noBox": true,
-      "price": 1850
-    },
-    {
-      "id": "dior-santal-noir-125ml-sem-caixa",
-      "slug": "dior-santal-noir",
-      "brand": "Dior",
-      "name": "Santal Noir",
       "volume": "125ml",
       "isTester": false,
       "noBox": true,
