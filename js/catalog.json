@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T02:59:21.153Z",
+  "updatedAt": "2026-11-11T03:05:13.758Z",
   "items": [
     {
       "id": "amouage-lustre-100ml",
@@ -320,7 +320,7 @@
       "price": 1400
     },
     {
-      "id": "gritti-chantilly-100ml",
+      "id": "gritti-chantilly-edp-100ml",
       "slug": "gritti-chantilly",
       "brand": "Gritti",
       "name": "Chantilly",
@@ -331,7 +331,7 @@
       "price": 900
     },
     {
-      "id": "gritti-mango-aoud-100ml",
+      "id": "gritti-mango-aoud-extrait-100ml",
       "slug": "gritti-mango-aoud",
       "brand": "Gritti",
       "name": "Mango Aoud",
@@ -632,7 +632,7 @@
       "price": 1040
     },
     {
-      "id": "maison-francis-kurkdjian-baccarat-rouge-540-70ml",
+      "id": "maison-francis-kurkdjian-baccarat-rouge-540-edp-70ml",
       "slug": "maison-francis-kurkdjian-baccarat-rouge-540",
       "brand": "Maison Francis Kurkdjian",
       "name": "Baccarat Rouge 540",
@@ -643,7 +643,7 @@
       "price": 1990
     },
     {
-      "id": "maison-francis-kurkdjian-baccarat-rouge-540-200ml",
+      "id": "maison-francis-kurkdjian-baccarat-rouge-540-extrait-200ml",
       "slug": "maison-francis-kurkdjian-baccarat-rouge-540",
       "brand": "Maison Francis Kurkdjian",
       "name": "Baccarat Rouge 540",

@@ -44,7 +44,9 @@ const brl = new Intl.NumberFormat("pt-BR", {
 
 /** Converte um item do catalog.json no modelo Perfume, juntando o perfil pelo slug. */
 function toPerfume(item) {
-  const profile = FRAGRANCES[item.slug];
+  // Perfil por concentração (ex.: "...-extrait") tem prioridade sobre o do slug.
+  const conc = item.concentration?.toLowerCase();
+  const profile = (conc && FRAGRANCES[`${item.slug}-${conc}`]) || FRAGRANCES[item.slug];
   if (!profile) {
     console.info(
       `Perfil olfativo ausente para "${item.brand} ${item.name}". ` +

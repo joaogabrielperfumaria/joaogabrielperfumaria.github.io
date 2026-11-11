@@ -170,7 +170,9 @@ function parseProduct({ brand, name: rawName, price }) {
   if (!name) return { error: `nome vazio após parsing (${fullName})` };
 
   const slug = slugify(`${brand} ${name}`);
-  const variant = [volume, isTester && "tester", noBox && "sem-caixa"].filter(Boolean).join("-");
+  const variant = [concentration?.toLowerCase(), volume, isTester && "tester", noBox && "sem-caixa"]
+    .filter(Boolean)
+    .join("-");
   const item = {
     id: variant ? `${slug}-${variant}` : slug,
     slug,
