@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-10T01:05:14.134Z",
+  "updatedAt": "2026-11-11T02:59:21.153Z",
   "items": [
+    {
+      "id": "amouage-lustre-100ml",
+      "slug": "amouage-lustre",
+      "brand": "Amouage",
+      "name": "Lustre",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1940
+    },
     {
       "id": "bdk-parfums-oud-abramad-100ml",
       "slug": "bdk-parfums-oud-abramad",
@@ -10,16 +20,6 @@
       "isTester": false,
       "noBox": false,
       "price": 1170
-    },
-    {
-      "id": "bdk-parfums-tubereuse-imperiale-100ml",
-      "slug": "bdk-parfums-tubereuse-imperiale",
-      "brand": "BDK Parfums",
-      "name": "Tubereuse Imperiale",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1250
     },
     {
       "id": "bdk-parfums-vanille-caviar-100ml",
@@ -140,16 +140,6 @@
       "price": 820
     },
     {
-      "id": "casamorati-fiero-100ml",
-      "slug": "casamorati-fiero",
-      "brand": "Casamorati",
-      "name": "Fiero",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 990
-    },
-    {
       "id": "casamorati-tempio-d-acqua-100ml-tester",
       "slug": "casamorati-tempio-d-acqua",
       "brand": "Casamorati",
@@ -158,16 +148,6 @@
       "isTester": true,
       "noBox": false,
       "price": 820
-    },
-    {
-      "id": "christian-provenzano-colosseum-100ml",
-      "slug": "christian-provenzano-colosseum",
-      "brand": "Christian Provenzano",
-      "name": "Colosseum",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1390
     },
     {
       "id": "christian-provenzano-cuir-elite-100ml",
@@ -240,6 +220,16 @@
       "price": 980
     },
     {
+      "id": "creed-erolfa-100ml",
+      "slug": "creed-erolfa",
+      "brand": "Creed",
+      "name": "Erolfa",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1820
+    },
+    {
       "id": "creed-love-in-black-75ml",
       "slug": "creed-love-in-black",
       "brand": "Creed",
@@ -297,7 +287,7 @@
       "volume": "125ml",
       "isTester": false,
       "noBox": true,
-      "price": 1850
+      "price": 1750
     },
     {
       "id": "dior-purple-oud-125ml-sem-caixa",
@@ -307,7 +297,27 @@
       "volume": "125ml",
       "isTester": false,
       "noBox": true,
-      "price": 1850
+      "price": 1750
+    },
+    {
+      "id": "fragrance-du-bois-siberian-rose-100ml",
+      "slug": "fragrance-du-bois-siberian-rose",
+      "brand": "Fragrance Du Bois",
+      "name": "Siberian Rose",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1400
+    },
+    {
+      "id": "fragrance-du-bois-sirene-privee-75ml",
+      "slug": "fragrance-du-bois-sirene-privee",
+      "brand": "Fragrance Du Bois",
+      "name": "Sirene Privee",
+      "volume": "75ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1400
     },
     {
       "id": "gritti-chantilly-100ml",
@@ -319,6 +329,227 @@
       "isTester": false,
       "noBox": false,
       "price": 900
+    },
+    {
+      "id": "gritti-mango-aoud-100ml",
+      "slug": "gritti-mango-aoud",
+      "brand": "Gritti",
+      "name": "Mango Aoud",
+      "volume": "100ml",
+      "concentration": "Extrait",
+      "isTester": false,
+      "noBox": false,
+      "price": 870
+    },
+    {
+      "id": "hind-al-oud-devotion-50ml",
+      "slug": "hind-al-oud-devotion",
+      "brand": "Hind Al Oud",
+      "name": "Devotion",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1250
+    },
+    {
+      "id": "hind-al-oud-emarati-oud-50ml",
+      "slug": "hind-al-oud-emarati-oud",
+      "brand": "Hind Al Oud",
+      "name": "Emarati Oud",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1250
+    },
+    {
+      "id": "hind-al-oud-kheneen-al-fekr-50ml",
+      "slug": "hind-al-oud-kheneen-al-fekr",
+      "brand": "Hind Al Oud",
+      "name": "Kheneen Al Fekr",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1850
+    },
+    {
+      "id": "hind-al-oud-oud-zayed-50ml",
+      "slug": "hind-al-oud-oud-zayed",
+      "brand": "Hind Al Oud",
+      "name": "Oud Zayed",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1850
+    },
+    {
+      "id": "hind-al-oud-patchouli-50ml",
+      "slug": "hind-al-oud-patchouli",
+      "brand": "Hind Al Oud",
+      "name": "Patchouli",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1250
+    },
+    {
+      "id": "hind-al-oud-pink-musk-50ml",
+      "slug": "hind-al-oud-pink-musk",
+      "brand": "Hind Al Oud",
+      "name": "Pink Musk",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1250
+    },
+    {
+      "id": "hind-al-oud-rose-50ml",
+      "slug": "hind-al-oud-rose",
+      "brand": "Hind Al Oud",
+      "name": "Rose",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1250
+    },
+    {
+      "id": "hind-al-oud-sheikh-a-50ml",
+      "slug": "hind-al-oud-sheikh-a",
+      "brand": "Hind Al Oud",
+      "name": "Sheikh A",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1250
+    },
+    {
+      "id": "hind-al-oud-silver-musk-50ml",
+      "slug": "hind-al-oud-silver-musk",
+      "brand": "Hind Al Oud",
+      "name": "Silver Musk",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1250
+    },
+    {
+      "id": "house-of-bo-agua-de-santos-40ml",
+      "slug": "house-of-bo-agua-de-santos",
+      "brand": "House of BŌ",
+      "name": "Agua de Santos",
+      "volume": "40ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1270
+    },
+    {
+      "id": "house-of-bo-bombon-40ml",
+      "slug": "house-of-bo-bombon",
+      "brand": "House of BŌ",
+      "name": "Bombon",
+      "volume": "40ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1280
+    },
+    {
+      "id": "house-of-bo-casa-blanca-40ml",
+      "slug": "house-of-bo-casa-blanca",
+      "brand": "House of BŌ",
+      "name": "Casa Blanca",
+      "volume": "40ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1280
+    },
+    {
+      "id": "house-of-bo-cosmos-40ml",
+      "slug": "house-of-bo-cosmos",
+      "brand": "House of BŌ",
+      "name": "Cosmos",
+      "volume": "40ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1270
+    },
+    {
+      "id": "house-of-bo-cosmos-75ml",
+      "slug": "house-of-bo-cosmos",
+      "brand": "House of BŌ",
+      "name": "Cosmos",
+      "volume": "75ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1720
+    },
+    {
+      "id": "house-of-bo-el-sireno-40ml",
+      "slug": "house-of-bo-el-sireno",
+      "brand": "House of BŌ",
+      "name": "El Sireno",
+      "volume": "40ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1270
+    },
+    {
+      "id": "house-of-bo-el-sireno-75ml",
+      "slug": "house-of-bo-el-sireno",
+      "brand": "House of BŌ",
+      "name": "El Sireno",
+      "volume": "75ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1720
+    },
+    {
+      "id": "house-of-bo-infinitoud-40ml",
+      "slug": "house-of-bo-infinitoud",
+      "brand": "House of BŌ",
+      "name": "Infinitoud",
+      "volume": "40ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1250
+    },
+    {
+      "id": "house-of-bo-infinitoud-75ml",
+      "slug": "house-of-bo-infinitoud",
+      "brand": "House of BŌ",
+      "name": "Infinitoud",
+      "volume": "75ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1720
+    },
+    {
+      "id": "house-of-bo-oro-verde-40ml",
+      "slug": "house-of-bo-oro-verde",
+      "brand": "House of BŌ",
+      "name": "Oro Verde",
+      "volume": "40ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1250
+    },
+    {
+      "id": "house-of-bo-oro-verde-75ml",
+      "slug": "house-of-bo-oro-verde",
+      "brand": "House of BŌ",
+      "name": "Oro Verde",
+      "volume": "75ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1720
+    },
+    {
+      "id": "house-of-bo-rosario-75ml",
+      "slug": "house-of-bo-rosario",
+      "brand": "House of BŌ",
+      "name": "Rosario",
+      "volume": "75ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1720
     },
     {
       "id": "initio-lift-me-up-90ml",
@@ -339,6 +570,36 @@
       "isTester": true,
       "noBox": false,
       "price": 1590
+    },
+    {
+      "id": "kajal-homme-ii-100ml",
+      "slug": "kajal-homme-ii",
+      "brand": "Kajal",
+      "name": "Homme II",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 800
+    },
+    {
+      "id": "kajal-homme-iii-100ml",
+      "slug": "kajal-homme-iii",
+      "brand": "Kajal",
+      "name": "Homme III",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1100
+    },
+    {
+      "id": "kilian-angel-s-share-paradis-50ml",
+      "slug": "kilian-angel-s-share-paradis",
+      "brand": "Kilian",
+      "name": "Angel's Share Paradis",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1800
     },
     {
       "id": "lorenzo-pazzaglia-coffeee-passion-50ml",
@@ -369,6 +630,28 @@
       "isTester": false,
       "noBox": false,
       "price": 1040
+    },
+    {
+      "id": "maison-francis-kurkdjian-baccarat-rouge-540-70ml",
+      "slug": "maison-francis-kurkdjian-baccarat-rouge-540",
+      "brand": "Maison Francis Kurkdjian",
+      "name": "Baccarat Rouge 540",
+      "volume": "70ml",
+      "concentration": "EDP",
+      "isTester": false,
+      "noBox": false,
+      "price": 1990
+    },
+    {
+      "id": "maison-francis-kurkdjian-baccarat-rouge-540-200ml",
+      "slug": "maison-francis-kurkdjian-baccarat-rouge-540",
+      "brand": "Maison Francis Kurkdjian",
+      "name": "Baccarat Rouge 540",
+      "volume": "200ml",
+      "concentration": "Extrait",
+      "isTester": false,
+      "noBox": false,
+      "price": 4250
     },
     {
       "id": "mind-games-checkmate-100ml",
@@ -409,16 +692,6 @@
       "isTester": false,
       "noBox": false,
       "price": 1690
-    },
-    {
-      "id": "moresque-oro-50ml",
-      "slug": "moresque-oro",
-      "brand": "Moresque",
-      "name": "Oro",
-      "volume": "50ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 875
     },
     {
       "id": "nasomatto-baraonda-30ml",
@@ -501,16 +774,6 @@
       "price": 920
     },
     {
-      "id": "orto-parisi-megamare-50ml",
-      "slug": "orto-parisi-megamare",
-      "brand": "Orto Parisi",
-      "name": "Megamare",
-      "volume": "50ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 930
-    },
-    {
       "id": "orto-parisi-risvelium-50ml",
       "slug": "orto-parisi-risvelium",
       "brand": "Orto Parisi",
@@ -561,14 +824,54 @@
       "price": 1290
     },
     {
-      "id": "sasva-forbidden-words-alfaaz-e-mamnooah-100ml",
-      "slug": "sasva-forbidden-words-alfaaz-e-mamnooah",
-      "brand": "Sasva",
-      "name": "Forbidden Words Alfaaz E Mamnooah",
+      "id": "parfums-d-elmar-elixir-d-amour-60ml",
+      "slug": "parfums-d-elmar-elixir-d-amour",
+      "brand": "Parfums d'Elmar",
+      "name": "Elixir d'Amour",
+      "volume": "60ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1350
+    },
+    {
+      "id": "parfums-d-elmar-zaya-60ml",
+      "slug": "parfums-d-elmar-zaya",
+      "brand": "Parfums d'Elmar",
+      "name": "Zaya",
+      "volume": "60ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1350
+    },
+    {
+      "id": "rosendo-mateu-1-100ml",
+      "slug": "rosendo-mateu-1",
+      "brand": "Rosendo Mateu",
+      "name": "1",
       "volume": "100ml",
       "isTester": false,
       "noBox": false,
-      "price": 1150
+      "price": 790
+    },
+    {
+      "id": "rosendo-mateu-10-100ml",
+      "slug": "rosendo-mateu-10",
+      "brand": "Rosendo Mateu",
+      "name": "10",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 850
+    },
+    {
+      "id": "rosendo-mateu-5-100ml",
+      "slug": "rosendo-mateu-5",
+      "brand": "Rosendo Mateu",
+      "name": "5",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 890
     },
     {
       "id": "sasva-forbidden-words-bombay-gourmand-100ml",
@@ -611,14 +914,64 @@
       "price": 850
     },
     {
-      "id": "xerjoff-avanguardia-100ml",
-      "slug": "xerjoff-avanguardia",
+      "id": "the-spirit-of-dubai-ajyal-50ml",
+      "slug": "the-spirit-of-dubai-ajyal",
+      "brand": "The Spirit Of Dubai",
+      "name": "Ajyal",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1290
+    },
+    {
+      "id": "xerjoff-40knots-100ml",
+      "slug": "xerjoff-40knots",
       "brand": "Xerjoff",
-      "name": "Avanguardia",
+      "name": "40knots",
       "volume": "100ml",
       "isTester": false,
       "noBox": false,
-      "price": 2690
+      "price": 1000
+    },
+    {
+      "id": "xerjoff-alexandria-ii-100ml",
+      "slug": "xerjoff-alexandria-ii",
+      "brand": "Xerjoff",
+      "name": "Alexandria II",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1590
+    },
+    {
+      "id": "xerjoff-blue-hope-100ml",
+      "slug": "xerjoff-blue-hope",
+      "brand": "Xerjoff",
+      "name": "Blue Hope",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1350
+    },
+    {
+      "id": "xerjoff-ceylon-50ml",
+      "slug": "xerjoff-ceylon",
+      "brand": "Xerjoff",
+      "name": "Ceylon",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1550
+    },
+    {
+      "id": "xerjoff-cruz-del-sur-ii-50ml",
+      "slug": "xerjoff-cruz-del-sur-ii",
+      "brand": "Xerjoff",
+      "name": "Cruz Del Sur II",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 990
     },
     {
       "id": "xerjoff-erba-gold-100ml",
@@ -639,6 +992,16 @@
       "isTester": false,
       "noBox": false,
       "price": 930
+    },
+    {
+      "id": "xerjoff-fars-50ml",
+      "slug": "xerjoff-fars",
+      "brand": "Xerjoff",
+      "name": "Fars",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 990
     },
     {
       "id": "xerjoff-gibeon-50ml",
@@ -699,6 +1062,16 @@
       "isTester": false,
       "noBox": false,
       "price": 1350
+    },
+    {
+      "id": "xerjoff-starlight-50ml",
+      "slug": "xerjoff-starlight",
+      "brand": "Xerjoff",
+      "name": "Starlight",
+      "volume": "50ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 990
     },
     {
       "id": "xerjoff-torino21-100ml",
