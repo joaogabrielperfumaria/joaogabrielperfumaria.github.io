@@ -876,10 +876,20 @@ export const FRAGRANCES = {
 
   "dior-balade-sauvage": {
     image: "assets/perfumes/balade-sauvage.webp",
+    family: "Amadeirado Cítrico",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Bergamota", "Notas Ozônicas", "Petitgrain"],
+      heart: ["Figueira", "Figo", "Notas Solares", "Flor de Laranjeira", "Hedione", "Notas Marinhas", "Rosa", "Pêssego"],
+      base: ["Seixos", "Amberwood", "Labdanum", "Baunilha"],
+    },
   },
 
   "dior-purple-oud": {
     image: "assets/perfumes/purple-oud.webp",
+    family: "Oriental Amadeirado",
+    source: "fragrantica.com",
+    mainNotes: ["Laranja", "Oud", "Pimenta Rosa", "Açafrão"],
   },
 
   "dior-santal-noir": {
@@ -888,18 +898,45 @@ export const FRAGRANCES = {
 
   "hind-al-oud-oud-zayed": {
     image: "assets/perfumes/oud-zayed.webp",
+    family: "Ambarado Amadeirado",
+    source: "fragrantica.com",
+    mainNotes: ["Cashmeran", "Âmbar", "Oud"],
   },
 
   "lorenzo-pazzaglia-coffeee-passion": {
     image: "assets/perfumes/coffeee-passion.webp",
+    family: "Gourmand",
+    perfumer: "Lorenzo Pazzaglia",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Coco", "Damasco", "Avelã", "Canela"],
+      heart: ["Café", "Leite de Coco", "Caramelo", "Chocolate", "Fava Tonka", "Heliotrópio"],
+      base: ["Açúcar", "Cedro", "Baunilha", "Benjoim", "Almíscar Branco"],
+    },
   },
 
   "lorenzo-pazzaglia-pink-milk": {
     image: "assets/perfumes/pink-milk.webp",
+    family: "Floral Gourmand",
+    perfumer: "Lorenzo Pazzaglia",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Rosa", "Toranja Rosa", "Pimenta Rosa", "Bergamota", "Laranja Doce", "Limão", "Canela"],
+      heart: ["Rosa Damascena", "Rosa de Grasse", "Lichia", "Peônia", "Framboesa", "Coco", "Heliotrópio", "Amêndoa Doce", "Biscoito"],
+      base: ["Leite", "Baunilha", "Sorvete", "Fior di Latte", "Almíscar Branco", "Frutas Vermelhas", "Açúcar", "Sândalo", "Fava Tonka", "Cumarina", "Vetiver"],
+    },
   },
 
   "lorenzo-pazzaglia-summer-hammer": {
     image: "assets/perfumes/summer-hammer.webp",
+    family: "Frutado Tropical",
+    perfumer: "Lorenzo Pazzaglia",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Manga", "Abacaxi", "Coco", "Bergamota", "Rum Branco"],
+      heart: ["Leite de Coco", "Flores Brancas", "Notas Marinhas"],
+      base: ["Almíscar", "Sândalo", "Âmbar", "Vetiver"],
+    },
   },
 
   "miller-harris-scherzo": {
@@ -916,27 +953,50 @@ export const FRAGRANCES = {
 
   "nasomatto-baraonda": {
     image: "assets/perfumes/baraonda.webp",
-    source: "nasomatto.com",
+    family: "Amadeirado",
+    perfumer: "Alessandro Gualtieri",
+    source: "fragrantica.com",
+    mainNotes: ["Uísque", "Notas Amadeiradas", "Ambrette", "Rosa", "Ambroxan", "Almíscar"],
   },
 
   "nasomatto-black-afgano": {
     image: "assets/perfumes/black-afgano.webp",
-    source: "nasomatto.com",
+    family: "Ambarado Amadeirado",
+    perfumer: "Alessandro Gualtieri",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Cannabis", "Notas Verdes", "Davana", "Açafrão", "Tomilho"],
+      heart: ["Resinas", "Notas Amadeiradas", "Tabaco", "Café", "Canela", "Framboesa", "Violeta"],
+      base: ["Oud", "Incenso", "Âmbar", "Notas Animálicas", "Guaiaco", "Almíscar", "Cedro", "Fava Tonka", "Bálsamo de Gurjun", "Ambroxan", "Baunilha"],
+    },
   },
 
   "nasomatto-blamage": {
     image: "assets/perfumes/blamage.webp",
-    source: "nasomatto.com",
+    family: "Couro",
+    perfumer: "Alessandro Gualtieri",
+    source: "fragrantica.com",
+    mainNotes: ["Bétula", "Almíscar", "Madeiras Brancas", "Couro"],
   },
 
   "nasomatto-duro": {
     image: "assets/perfumes/duro.webp",
-    source: "nasomatto.com",
+    family: "Amadeirado Couro",
+    perfumer: "Alessandro Gualtieri",
+    source: "fragrantica.com",
+    mainNotes: ["Notas Amadeiradas", "Couro", "Especiarias"],
   },
 
   "nasomatto-nudiflorum": {
     image: "assets/perfumes/nudiflorum.webp",
-    source: "nasomatto.com",
+    family: "Animálico Frutado",
+    perfumer: "Alessandro Gualtieri",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Ruibarbo"],
+      heart: ["Framboesa", "Salicilato de Amila", "Rosa"],
+      base: ["Couro", "Notas Animálicas", "Musgo de Carvalho", "Cedro"],
+    },
   },
 
   "nasomatto-pardon": {
@@ -946,17 +1006,38 @@ export const FRAGRANCES = {
 
   "nasomatto-sadonaso": {
     image: "assets/perfumes/sadonaso.webp",
-    source: "nasomatto.com",
+    family: "Almiscarado",
+    perfumer: "Alessandro Gualtieri",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Café"],
+      heart: ["Almíscar", "Tabaco", "Sândalo"],
+      base: ["Baunilha", "Notas Animálicas", "Âmbar", "Fava Tonka"],
+    },
   },
 
   "orto-parisi-boccanera": {
     image: "assets/perfumes/boccanera.webp",
-    source: "ortoparisi.com",
+    family: "Especiado Gourmand",
+    perfumer: "Alessandro Gualtieri",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Pimenta Chili", "Pimenta Preta", "Fava de Cacau", "Gengibre"],
+      heart: ["Jasmim"],
+      base: ["Chocolate", "Almíscar", "Couro", "Notas Animálicas", "Patchouli", "Cedro", "Baunilha", "Açúcar"],
+    },
   },
 
   "orto-parisi-brutus": {
     image: "assets/perfumes/brutus.webp",
-    source: "ortoparisi.com",
+    family: "Amadeirado Chipre",
+    perfumer: "Alessandro Gualtieri",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Bergamota", "Tangerina"],
+      heart: ["Lavanda", "Gerânio", "Rosa"],
+      base: ["Patchouli", "Cedro", "Almíscar", "Musgo de Carvalho", "Âmbar", "Labdanum"],
+    },
   },
 
   "orto-parisi-megamare": {
@@ -966,7 +1047,14 @@ export const FRAGRANCES = {
 
   "orto-parisi-risvelium": {
     image: "assets/perfumes/risvelium.webp",
-    source: "ortoparisi.com",
+    family: "Cítrico Almiscarado",
+    perfumer: "Alessandro Gualtieri",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Toranja", "Bergamota"],
+      heart: ["Cassis", "Abacaxi"],
+      base: ["Almíscar", "Ambroxan", "Âmbar"],
+    },
   },
 
   "orto-parisi-seminalis": {
@@ -976,12 +1064,26 @@ export const FRAGRANCES = {
 
   "orto-parisi-stercus": {
     image: "assets/perfumes/stercus.webp",
-    source: "ortoparisi.com",
+    family: "Oriental Amadeirado",
+    perfumer: "Alessandro Gualtieri",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Amêndoa", "Aldeídos", "Anis"],
+      heart: ["Rosa"],
+      base: ["Oud", "Almíscar", "Couro", "Baunilha", "Cedro", "Heliotrópio"],
+    },
   },
 
   "orto-parisi-terroni": {
     image: "assets/perfumes/terroni.webp",
-    source: "ortoparisi.com",
+    family: "Amadeirado Ambarado",
+    perfumer: "Alessandro Gualtieri",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Framboesa"],
+      heart: ["Bétula", "Âmbar", "Benjoim"],
+      base: ["Guaiaco", "Vetiver", "Cedro", "Almíscar", "Musgo", "Patchouli", "Fava Tonka", "Baunilha"],
+    },
   },
 
   "perris-monte-carlo-oud-imperial": {
@@ -996,14 +1098,35 @@ export const FRAGRANCES = {
 
   "sasva-forbidden-words-bombay-gourmand": {
     image: "assets/perfumes/bombay-gourmand.webp",
+    family: "Amadeirado Gourmand",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Rosa", "Flor de Amendoeira", "Laranja Doce"],
+      heart: ["Oud", "Caramelo", "Cypriol", "Davana"],
+      base: ["Baunilha", "Patchouli", "Labdanum", "Cedro"],
+    },
   },
 
   "sasva-fruit-du-paradis-phal-e-jannat": {
     image: "assets/perfumes/fruit-du-paradis.webp",
+    family: "Frutado Amadeirado",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Laranja Doce", "Lima"],
+      heart: ["Manga", "Romã", "Jasmim"],
+      base: ["Sândalo", "Vetiver", "Benjoim"],
+    },
   },
 
   "sasva-saaqi": {
     image: "assets/perfumes/saaqi.webp",
+    family: "Ambarado Gourmand",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Vinho Tinto", "Amêndoa", "Pimenta Preta"],
+      heart: ["Tabaco", "Fumaça", "Cedro"],
+      base: ["Baunilha", "Oud", "Caramelo", "Benjoim", "Almíscar"],
+    },
   },
 
   "xerjoff-avanguardia": {
@@ -1128,12 +1251,24 @@ export const FRAGRANCES = {
 
   "xerjoff-torino21": {
     image: "assets/perfumes/torino21.webp",
-    source: "xerjoff.com",
+    family: "Aromático",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Menta", "Limão", "Manjericão", "Tomilho"],
+      heart: ["Cassis", "Alecrim", "Lavanda", "Jasmim"],
+      base: ["Almíscar", "Verbena"],
+    },
   },
 
   "xerjoff-torino22": {
     image: "assets/perfumes/torino22.webp",
-    source: "xerjoff.com",
+    family: "Amadeirado Aromático",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Eucalipto", "Açafrão", "Bergamota"],
+      heart: ["Mate", "Sálvia Esclareia", "Guaiaco"],
+      base: ["Madeira Seca", "Almíscar"],
+    },
   },
 
   "xerjoff-torino25": {
@@ -1160,39 +1295,355 @@ export const FRAGRANCES = {
   },
 
   // Só foto por enquanto (frasco oficial); pirâmide pendente.
-  "amouage-lustre": { image: "assets/perfumes/amouage-lustre.webp" },
-  "fragrance-du-bois-siberian-rose": { image: "assets/perfumes/fragrance-du-bois-siberian-rose.webp" },
-  "fragrance-du-bois-sirene-privee": { image: "assets/perfumes/fragrance-du-bois-sirene-privee.webp" },
-  "hind-al-oud-devotion": { image: "assets/perfumes/hind-al-oud-devotion.webp" },
-  "hind-al-oud-emarati-oud": { image: "assets/perfumes/hind-al-oud-emarati-oud.webp" },
-  "hind-al-oud-kheneen-al-fekr": { image: "assets/perfumes/hind-al-oud-kheneen-al-fekr.webp" },
-  "hind-al-oud-patchouli": { image: "assets/perfumes/hind-al-oud-patchouli.webp" },
-  "hind-al-oud-rose": { image: "assets/perfumes/hind-al-oud-rose.webp" },
-  "hind-al-oud-sheikh-a": { image: "assets/perfumes/hind-al-oud-sheikh-a.webp" },
-  "hind-al-oud-silver-musk": { image: "assets/perfumes/hind-al-oud-silver-musk.webp" },
-  "house-of-bo-agua-de-santos": { image: "assets/perfumes/house-of-bo-agua-de-santos.webp" },
-  "house-of-bo-bombon": { image: "assets/perfumes/house-of-bo-bombon.webp" },
-  "house-of-bo-casa-blanca": { image: "assets/perfumes/house-of-bo-casa-blanca.webp" },
-  "house-of-bo-cosmos": { image: "assets/perfumes/house-of-bo-cosmos.webp" },
-  "house-of-bo-el-sireno": { image: "assets/perfumes/house-of-bo-el-sireno.webp" },
-  "house-of-bo-infinitoud": { image: "assets/perfumes/house-of-bo-infinitoud.webp" },
-  "house-of-bo-oro-verde": { image: "assets/perfumes/house-of-bo-oro-verde.webp" },
-  "house-of-bo-rosario": { image: "assets/perfumes/house-of-bo-rosario.webp" },
-  "kajal-homme-ii": { image: "assets/perfumes/kajal-homme-ii.webp" },
-  "kajal-homme-iii": { image: "assets/perfumes/kajal-homme-iii.webp" },
-  "kilian-angel-s-share-paradis": { image: "assets/perfumes/kilian-angel-s-share-paradis.webp" },
-  "maison-francis-kurkdjian-baccarat-rouge-540-edp": { image: "assets/perfumes/maison-francis-kurkdjian-baccarat-rouge-540-edp.webp" },
-  "maison-francis-kurkdjian-baccarat-rouge-540-extrait": { image: "assets/perfumes/maison-francis-kurkdjian-baccarat-rouge-540-extrait.webp" },
-  "rosendo-mateu-1": { image: "assets/perfumes/rosendo-mateu-1.webp" },
-  "rosendo-mateu-5": { image: "assets/perfumes/rosendo-mateu-5.webp" },
-  "the-spirit-of-dubai-ajyal": { image: "assets/perfumes/the-spirit-of-dubai-ajyal.webp" },
-  "xerjoff-40knots": { image: "assets/perfumes/xerjoff-40knots.webp" },
-  "xerjoff-alexandria-ii": { image: "assets/perfumes/xerjoff-alexandria-ii.webp" },
-  "xerjoff-blue-hope": { image: "assets/perfumes/xerjoff-blue-hope.webp" },
-  "xerjoff-ceylon": { image: "assets/perfumes/xerjoff-ceylon.webp" },
-  "xerjoff-cruz-del-sur-ii": { image: "assets/perfumes/xerjoff-cruz-del-sur-ii.webp" },
-  "xerjoff-fars": { image: "assets/perfumes/xerjoff-fars.webp" },
-  "xerjoff-starlight": { image: "assets/perfumes/xerjoff-starlight.webp" },
+  "amouage-lustre": {
+    image: "assets/perfumes/amouage-lustre.webp",
+    family: "Ambarado Amadeirado",
+    perfumer: "Julien Rasquinet e Paul Guerlain",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Cardamomo", "Íris"],
+      heart: ["Sândalo", "Cedro", "Patchouli"],
+      base: ["Mirra", "Benjoim", "Ambrarome", "Baunilha", "Labdanum", "Estoraque", "Cypriol", "Fava Tonka"],
+    },
+  },
+  "fragrance-du-bois-siberian-rose": {
+    image: "assets/perfumes/fragrance-du-bois-siberian-rose.webp",
+    family: "Floral Ambarado",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Pera", "Zimbro", "Pimenta Rosa", "Canela"],
+      heart: ["Tuberosa", "Rosa", "Couro", "Ylang-ylang"],
+      base: ["Musgo", "Patchouli", "Âmbar"],
+    },
+  },
+  "fragrance-du-bois-sirene-privee": {
+    image: "assets/perfumes/fragrance-du-bois-sirene-privee.webp",
+    family: "Amadeirado Frutado",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Laranja Sanguínea", "Pimenta Rosa", "Noz-moscada"],
+      heart: ["Cereja", "Canela", "Gerânio"],
+      base: ["Cypriol", "Carvalho", "Vetiver"],
+    },
+  },
+  "hind-al-oud-devotion": {
+    image: "assets/perfumes/hind-al-oud-devotion.webp",
+    family: "Oriental Adocicado",
+    source: "hindaloud.com (via MHG Boutique)",
+    notes: {
+      top: ["Mirtilo"],
+      heart: ["Baunilha"],
+      base: ["Oud"],
+    },
+  },
+  "hind-al-oud-emarati-oud": {
+    image: "assets/perfumes/hind-al-oud-emarati-oud.webp",
+    family: "Oriental",
+    source: "hindaloud.com (via MHG Boutique)",
+    notes: {
+      top: ["Tâmara"],
+      heart: ["Baunilha"],
+      base: ["Oud"],
+    },
+  },
+  "hind-al-oud-kheneen-al-fekr": {
+    image: "assets/perfumes/hind-al-oud-kheneen-al-fekr.webp",
+    family: "Aromático Adocicado",
+    source: "hindaloud.com (via MHG Boutique)",
+    notes: {
+      top: ["Anis-estrelado"],
+      heart: ["Flor de Cerejeira"],
+      base: ["Oud"],
+    },
+  },
+  "hind-al-oud-patchouli": {
+    image: "assets/perfumes/hind-al-oud-patchouli.webp",
+    family: "Floral Balsâmico",
+    source: "hindaloud.com (via MHG Boutique)",
+    notes: {
+      top: ["Limão"],
+      heart: ["Coentro"],
+      base: ["Patchouli"],
+    },
+  },
+  "hind-al-oud-rose": {
+    image: "assets/perfumes/hind-al-oud-rose.webp",
+    family: "Floral Oriental",
+    source: "hindaloud.com (via MHG Boutique)",
+    notes: {
+      top: ["Rosa"],
+      heart: ["Gerânio"],
+      base: ["Oud"],
+    },
+  },
+  "hind-al-oud-sheikh-a": {
+    image: "assets/perfumes/hind-al-oud-sheikh-a.webp",
+    family: "Oriental Especiado",
+    source: "hindaloud.com (via MHG Boutique)",
+    notes: {
+      top: ["Especiarias"],
+      heart: ["Oud"],
+      base: ["Âmbar Gris"],
+    },
+  },
+  "hind-al-oud-silver-musk": {
+    image: "assets/perfumes/hind-al-oud-silver-musk.webp",
+    family: "Cítrico Amadeirado",
+    source: "hindaloud.com (via MHG Boutique)",
+    notes: {
+      top: ["Toranja"],
+      heart: ["Cardamomo"],
+      base: ["Oud"],
+    },
+  },
+  "house-of-bo-agua-de-santos": {
+    image: "assets/perfumes/house-of-bo-agua-de-santos.webp",
+    family: "Cítrico Amadeirado",
+    perfumer: "Rodrigo Flores-Roux",
+    source: "houseofbo.co",
+    notes: {
+      top: ["Lima Mexicana", "Kumquat Doce", "Lavanda"],
+      heart: ["Óleo de Neroli", "Flor de Laranjeira", "Tomilho"],
+      base: ["Vetiver", "Cedro", "Almíscar de Angélica"],
+    },
+  },
+  "house-of-bo-bombon": {
+    image: "assets/perfumes/house-of-bo-bombon.webp",
+    family: "Floral Gourmand",
+    perfumer: "Honorine Blanc",
+    source: "houseofbo.co",
+    notes: {
+      top: ["Lichia", "Lírio-do-vale", "Açafrão Branco"],
+      heart: ["Pimenta Rosa", "Marshmallow", "Caramelo de Bergamota"],
+      base: ["Bétula Branca", "Conhaque Envelhecido", "Âmbar Gris"],
+    },
+  },
+  "house-of-bo-casa-blanca": {
+    image: "assets/perfumes/house-of-bo-casa-blanca.webp",
+    family: "Amadeirado Frutado",
+    perfumer: "Frank Voelkl",
+    source: "houseofbo.co",
+    notes: {
+      top: ["Minerais Cremosos", "Chá Branco", "Labdanum"],
+      heart: ["Copal Branco", "Figo do Deserto", "Camurça Branca"],
+      base: ["Tabaco", "Oud Branco", "Baunilha Bourbon"],
+    },
+  },
+  "house-of-bo-cosmos": {
+    image: "assets/perfumes/house-of-bo-cosmos.webp",
+    family: "Gourmand Metálico",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Notas Metálicas", "Praliné", "Uísque", "Almíscar"],
+      heart: ["Carvão", "Resina Sangue-de-Dragão", "Cacau"],
+      base: ["Fumaça", "Couro", "Oud", "Íris"],
+    },
+  },
+  "house-of-bo-el-sireno": {
+    image: "assets/perfumes/house-of-bo-el-sireno.webp",
+    family: "Floral Aquático",
+    perfumer: "Laurent Le Guernec",
+    source: "houseofbo.co",
+    notes: {
+      top: ["Alga Marinha", "Folha de Bananeira", "Lavanda"],
+      heart: ["Magnólia", "Ylang-ylang", "Tuberosa"],
+      base: ["Musgo de Carvalho", "Almécega", "Sândalo"],
+    },
+  },
+  "house-of-bo-infinitoud": {
+    image: "assets/perfumes/house-of-bo-infinitoud.webp",
+    family: "Amadeirado Terroso",
+    perfumer: "Carlos Benaïm",
+    source: "houseofbo.co",
+    notes: {
+      top: ["Mirra", "Vetiver", "Peiote"],
+      heart: ["Pimenta Preta", "Cedro", "Patchouli"],
+      base: ["Oud", "Incenso", "Bálsamo de Gurjun"],
+    },
+  },
+  "house-of-bo-oro-verde": {
+    image: "assets/perfumes/house-of-bo-oro-verde.webp",
+    family: "Âmbar Verde",
+    perfumer: "Adriana Medina",
+    source: "houseofbo.co",
+    notes: {
+      top: ["Bergamota", "Cannabis", "Mate"],
+      heart: ["Manjericão", "Melancia", "Vetiver"],
+      base: ["Âmbar Gris", "Palo Santo", "Musgo de Árvore"],
+    },
+  },
+  "house-of-bo-rosario": {
+    image: "assets/perfumes/house-of-bo-rosario.webp",
+    family: "Floral Incensado",
+    perfumer: "Olivier Cresp",
+    source: "houseofbo.co",
+    notes: {
+      top: ["Romã", "Limão Primofiore", "Coentro"],
+      heart: ["Rosa Centifolia", "Frésia", "Peônia Branca"],
+      base: ["Âmbar Gris", "Vetiver", "Incenso"],
+    },
+  },
+  "kajal-homme-ii": {
+    image: "assets/perfumes/kajal-homme-ii.webp",
+    family: "Amadeirado Aromático",
+    source: "kajalperfumes.com",
+    notes: {
+      top: ["Tangerina", "Bergamota", "Limão", "Notas Verdes", "Flor de Laranjeira", "Âmbar"],
+      heart: ["Pêssego", "Lavanda", "Alecrim", "Sálvia", "Canela", "Cravo", "Cedro"],
+      base: ["Sândalo", "Musgo de Carvalho", "Patchouli", "Almíscar"],
+    },
+  },
+  "kajal-homme-iii": {
+    image: "assets/perfumes/kajal-homme-iii.webp",
+    family: "Cítrico Aromático",
+    source: "kajalperfumes.com",
+    notes: {
+      top: ["Soda de Limão", "Toranja"],
+      heart: ["Alecrim", "Neroli", "Lavanda", "Gengibre"],
+      base: ["Ambroxan", "Patchouli", "Almíscar", "Âmbar"],
+    },
+  },
+  "kilian-angel-s-share-paradis": {
+    image: "assets/perfumes/kilian-angel-s-share-paradis.webp",
+    family: "Amadeirado Gourmand",
+    perfumer: "Benoist Lapouza",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Framboesa", "Conhaque", "Licor"],
+      heart: ["Fava Tonka", "Rosa Búlgara", "Caramelo"],
+      base: ["Carvalho", "Praliné", "Sândalo", "Baunilha", "Musgo de Carvalho"],
+    },
+  },
+  "maison-francis-kurkdjian-baccarat-rouge-540-edp": {
+    image: "assets/perfumes/maison-francis-kurkdjian-baccarat-rouge-540-edp.webp",
+    family: "Amadeirado Ambarado Floral",
+    perfumer: "Francis Kurkdjian",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Açafrão", "Jasmim"],
+      heart: ["Amberwood", "Âmbar Gris", "Hedione"],
+      base: ["Resina de Abeto", "Cedro", "Açúcar", "Ambroxan", "Musgo de Carvalho"],
+    },
+  },
+  "maison-francis-kurkdjian-baccarat-rouge-540-extrait": {
+    image: "assets/perfumes/maison-francis-kurkdjian-baccarat-rouge-540-extrait.webp",
+    family: "Amadeirado Ambarado Floral",
+    perfumer: "Francis Kurkdjian",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Amêndoa Amarga", "Açafrão"],
+      heart: ["Jasmim Egípcio", "Cedro da Virgínia"],
+      base: ["Âmbar Gris", "Notas Amadeiradas", "Almíscar", "Ambroxan", "Cashmeran"],
+    },
+  },
+  "rosendo-mateu-1": {
+    image: "assets/perfumes/rosendo-mateu-1.webp",
+    family: "Cítrico Aromático",
+    perfumer: "Rosendo Mateu",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Bergamota da Calábria", "Lima", "Lavanda", "Tangerina Verde", "Sálvia", "Alecrim", "Tomilho"],
+      heart: ["Folha de Chá", "Neroli", "Flor de Laranjeira Amarga", "Jasmim", "Pimentão Verde", "Lírio-do-vale", "Cardamomo"],
+      base: ["Almíscar Branco", "Sândalo", "Íris"],
+    },
+  },
+  "rosendo-mateu-5": {
+    image: "assets/perfumes/rosendo-mateu-5.webp",
+    family: "Floral Ambarado",
+    perfumer: "Rosendo Mateu",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Especiarias", "Notas Florais Exóticas"],
+      heart: ["Cravo", "Lírio-do-vale"],
+      base: ["Âmbar", "Baunilha", "Almíscar"],
+    },
+  },
+  "the-spirit-of-dubai-ajyal": {
+    image: "assets/perfumes/the-spirit-of-dubai-ajyal.webp",
+    family: "Cítrico Floral",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Notas Marinhas", "Toranja", "Notas de Chuva", "Bergamota", "Menta", "Maçã", "Lima", "Limão", "Pera", "Ameixa", "Notas Verdes", "Ruibarbo", "Pimenta Preta"],
+      heart: ["Lokum", "Amberwood", "Flor de Cerejeira", "Ylang-ylang", "Osmanthus", "Sândalo", "Mimosa", "Lavanda", "Orquídea", "Lírio-do-vale", "Jasmim Sambac", "Cravo", "Magnólia", "Frésia", "Heliotrópio"],
+      base: ["Almíscar Branco", "Âmbar", "Açúcar Mascavo", "Baunilha", "Patchouli", "Cedro", "Fava Tonka"],
+    },
+  },
+  "xerjoff-40knots": {
+    image: "assets/perfumes/xerjoff-40knots.webp",
+    family: "Amadeirado Marinho",
+    source: "fragrantica.com",
+    mainNotes: ["Notas Amadeiradas", "Cedro", "Sal", "Água do Mar", "Notas Verdes"],
+  },
+  "xerjoff-alexandria-ii": {
+    image: "assets/perfumes/xerjoff-alexandria-ii.webp",
+    family: "Oriental Amadeirado",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Maçã", "Canela", "Lavanda", "Pau-rosa"],
+      heart: ["Cedro", "Lírio-do-vale", "Rosa Búlgara"],
+      base: ["Âmbar", "Oud do Laos", "Almíscar", "Sândalo", "Baunilha"],
+    },
+  },
+  "xerjoff-blue-hope": {
+    image: "assets/perfumes/xerjoff-blue-hope.webp",
+    family: "Floral Amadeirado",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Bergamota", "Tangerina"],
+      heart: ["Cedro", "Jasmim", "Açafrão"],
+      base: ["Castóreo", "Almíscar", "Baunilha"],
+    },
+  },
+  "xerjoff-ceylon": {
+    image: "assets/perfumes/xerjoff-ceylon.webp",
+    family: "Floral Amadeirado",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Bergamota", "Jasmim Sambac Indiano", "Mel"],
+      heart: ["Sândalo Indiano", "Chá Preto do Ceilão", "Ouds da Malásia"],
+      base: ["Âmbar", "Almíscar", "Baunilha de Madagascar"],
+    },
+  },
+  "xerjoff-cruz-del-sur-ii": {
+    image: "assets/perfumes/xerjoff-cruz-del-sur-ii.webp",
+    family: "Floral Frutado",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Flor de Macieira", "Manga", "Abacaxi"],
+      heart: ["Folhas Verdes", "Buquê Floral"],
+      base: ["Cedro", "Almíscar", "Vetiver"],
+    },
+  },
+  "xerjoff-fars": {
+    image: "assets/perfumes/xerjoff-fars.webp",
+    family: "Amadeirado",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Óleo de Cade", "Lavanda Francesa", "Bergamota Italiana"],
+      heart: ["Cedro do Atlas", "Gerânio Egípcio", "Absoluto de Jasmim"],
+      base: ["Âmbar", "Vetiver do Haiti", "Patchouli", "Sândalo", "Oud Buaya do Laos"],
+    },
+  },
+  "xerjoff-starlight": {
+    image: "assets/perfumes/xerjoff-starlight.webp",
+    family: "Oriental",
+    source: "xerjoff.com",
+    notes: {
+      top: ["Bergamota", "Cardamomo"],
+      heart: ["Amêndoa", "Canela"],
+      base: ["Âmbar", "Cedro"],
+    },
+  },
+  "hind-al-oud-pink-musk": {
+    image: "assets/perfumes/hind-al-oud-pink-musk.webp",
+    family: "Floral Amadeirado",
+    source: "fragrantica.com",
+    notes: {
+      top: ["Jasmim"],
+      heart: ["Madeira de Cashmere"],
+      base: ["Oud"],
+    },
+  },
 };
 
 // O estoque grafa "Histories des Parfums" (marca com erro de digitação) e "Histoires De Parfums".
