@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T03:05:13.758Z",
+  "updatedAt": "2026-11-12T01:10:19.079Z",
   "items": [
     {
       "id": "amouage-lustre-100ml",
@@ -20,6 +20,16 @@
       "isTester": false,
       "noBox": false,
       "price": 1170
+    },
+    {
+      "id": "bdk-parfums-tubereuse-imperiale-100ml",
+      "slug": "bdk-parfums-tubereuse-imperiale",
+      "brand": "BDK Parfums",
+      "name": "Tubereuse Imperiale",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1250
     },
     {
       "id": "bdk-parfums-vanille-caviar-100ml",
@@ -60,16 +70,6 @@
       "isTester": false,
       "noBox": false,
       "price": 1390
-    },
-    {
-      "id": "boadicea-the-victorious-rose-sapphire-100ml",
-      "slug": "boadicea-the-victorious-rose-sapphire",
-      "brand": "Boadicea The Victorious",
-      "name": "Rose Sapphire",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 2520
     },
     {
       "id": "boadicea-the-victorious-royal-sapphires-collection",
@@ -402,16 +402,6 @@
       "price": 1250
     },
     {
-      "id": "hind-al-oud-rose-50ml",
-      "slug": "hind-al-oud-rose",
-      "brand": "Hind Al Oud",
-      "name": "Rose",
-      "volume": "50ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1250
-    },
-    {
       "id": "hind-al-oud-sheikh-a-50ml",
       "slug": "hind-al-oud-sheikh-a",
       "brand": "Hind Al Oud",
@@ -432,24 +422,14 @@
       "price": 1250
     },
     {
-      "id": "house-of-bo-agua-de-santos-40ml",
-      "slug": "house-of-bo-agua-de-santos",
-      "brand": "House of BŌ",
-      "name": "Agua de Santos",
-      "volume": "40ml",
+      "id": "hind-al-oud-tahnoun-50ml",
+      "slug": "hind-al-oud-tahnoun",
+      "brand": "Hind Al Oud",
+      "name": "Tahnoun",
+      "volume": "50ml",
       "isTester": false,
       "noBox": false,
-      "price": 1270
-    },
-    {
-      "id": "house-of-bo-bombon-40ml",
-      "slug": "house-of-bo-bombon",
-      "brand": "House of BŌ",
-      "name": "Bombon",
-      "volume": "40ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1280
+      "price": 1290
     },
     {
       "id": "house-of-bo-casa-blanca-40ml",
@@ -536,16 +516,6 @@
       "slug": "house-of-bo-oro-verde",
       "brand": "House of BŌ",
       "name": "Oro Verde",
-      "volume": "75ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1720
-    },
-    {
-      "id": "house-of-bo-rosario-75ml",
-      "slug": "house-of-bo-rosario",
-      "brand": "House of BŌ",
-      "name": "Rosario",
       "volume": "75ml",
       "isTester": false,
       "noBox": false,
@@ -643,17 +613,6 @@
       "price": 1990
     },
     {
-      "id": "maison-francis-kurkdjian-baccarat-rouge-540-extrait-200ml",
-      "slug": "maison-francis-kurkdjian-baccarat-rouge-540",
-      "brand": "Maison Francis Kurkdjian",
-      "name": "Baccarat Rouge 540",
-      "volume": "200ml",
-      "concentration": "Extrait",
-      "isTester": false,
-      "noBox": false,
-      "price": 4250
-    },
-    {
       "id": "mind-games-checkmate-100ml",
       "slug": "mind-games-checkmate",
       "brand": "Mind Games",
@@ -728,16 +687,6 @@
       "slug": "nasomatto-duro",
       "brand": "Nasomatto",
       "name": "Duro",
-      "volume": "30ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 850
-    },
-    {
-      "id": "nasomatto-nudiflorum-30ml",
-      "slug": "nasomatto-nudiflorum",
-      "brand": "Nasomatto",
-      "name": "Nudiflorum",
       "volume": "30ml",
       "isTester": false,
       "noBox": false,
@@ -864,16 +813,6 @@
       "price": 850
     },
     {
-      "id": "rosendo-mateu-5-100ml",
-      "slug": "rosendo-mateu-5",
-      "brand": "Rosendo Mateu",
-      "name": "5",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 890
-    },
-    {
       "id": "sasva-forbidden-words-bombay-gourmand-100ml",
       "slug": "sasva-forbidden-words-bombay-gourmand",
       "brand": "Sasva",
@@ -902,16 +841,6 @@
       "isTester": false,
       "noBox": false,
       "price": 1150
-    },
-    {
-      "id": "sospiro-farsa-75ml",
-      "slug": "sospiro-farsa",
-      "brand": "Sospiro",
-      "name": "Farsa",
-      "volume": "75ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 850
     },
     {
       "id": "the-spirit-of-dubai-ajyal-50ml",
