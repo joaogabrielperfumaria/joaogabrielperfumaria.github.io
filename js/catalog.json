@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T01:10:05.743Z",
+  "updatedAt": "2026-11-13T13:15:06.363Z",
   "items": [
     {
       "id": "amouage-lustre-100ml",
@@ -309,17 +309,6 @@
       "isTester": false,
       "noBox": false,
       "price": 900
-    },
-    {
-      "id": "gritti-mango-aoud-extrait-100ml",
-      "slug": "gritti-mango-aoud",
-      "brand": "Gritti",
-      "name": "Mango Aoud",
-      "volume": "100ml",
-      "concentration": "Extrait",
-      "isTester": false,
-      "noBox": false,
-      "price": 870
     },
     {
       "id": "hind-al-oud-devotion-50ml",
@@ -777,16 +766,6 @@
       "slug": "sasva-forbidden-words-bombay-gourmand",
       "brand": "Sasva",
       "name": "Forbidden Words Bombay Gourmand",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1135
-    },
-    {
-      "id": "sasva-fruit-du-paradis-phal-e-jannat-100ml",
-      "slug": "sasva-fruit-du-paradis-phal-e-jannat",
-      "brand": "Sasva",
-      "name": "Fruit Du Paradis Phal E Jannat",
       "volume": "100ml",
       "isTester": false,
       "noBox": false,
