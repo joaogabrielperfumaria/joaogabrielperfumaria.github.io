@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T13:15:06.363Z",
+  "updatedAt": "2026-11-15T01:09:40.798Z",
   "items": [
     {
       "id": "amouage-lustre-100ml",
@@ -900,16 +900,6 @@
       "isTester": false,
       "noBox": false,
       "price": 930
-    },
-    {
-      "id": "xerjoff-nio-50ml",
-      "slug": "xerjoff-nio",
-      "brand": "Xerjoff",
-      "name": "Nio",
-      "volume": "50ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1050
     },
     {
       "id": "xerjoff-renaissance-100ml",
