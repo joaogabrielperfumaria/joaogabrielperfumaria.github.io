@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T01:09:40.798Z",
+  "updatedAt": "2026-11-17T01:10:15.591Z",
   "items": [
     {
       "id": "amouage-lustre-100ml",
@@ -489,16 +489,6 @@
       "isTester": false,
       "noBox": false,
       "price": 1650
-    },
-    {
-      "id": "initio-wild-rush-90ml-tester",
-      "slug": "initio-wild-rush",
-      "brand": "Initio",
-      "name": "Wild Rush",
-      "volume": "90ml",
-      "isTester": true,
-      "noBox": false,
-      "price": 1590
     },
     {
       "id": "kajal-homme-ii-100ml",
