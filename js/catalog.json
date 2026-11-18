@@ -1,16 +1,6 @@
 {
-  "updatedAt": "2026-11-17T01:10:15.591Z",
+  "updatedAt": "2026-11-18T01:10:01.208Z",
   "items": [
-    {
-      "id": "amouage-lustre-100ml",
-      "slug": "amouage-lustre",
-      "brand": "Amouage",
-      "name": "Lustre",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1940
-    },
     {
       "id": "bdk-parfums-oud-abramad-100ml",
       "slug": "bdk-parfums-oud-abramad",
@@ -389,16 +379,6 @@
       "isTester": false,
       "noBox": false,
       "price": 1250
-    },
-    {
-      "id": "house-of-bo-casa-blanca-40ml",
-      "slug": "house-of-bo-casa-blanca",
-      "brand": "House of BŌ",
-      "name": "Casa Blanca",
-      "volume": "40ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1280
     },
     {
       "id": "house-of-bo-cosmos-40ml",
@@ -890,16 +870,6 @@
       "isTester": false,
       "noBox": false,
       "price": 930
-    },
-    {
-      "id": "xerjoff-renaissance-100ml",
-      "slug": "xerjoff-renaissance",
-      "brand": "Xerjoff",
-      "name": "Renaissance",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 950
     },
     {
       "id": "xerjoff-sketchbook-p-33-blank-page-100ml",
