@@ -1306,6 +1306,17 @@ export const FRAGRANCES = {
       base: ["Mirra", "Benjoim", "Ambrarome", "Baunilha", "Labdanum", "Estoraque", "Cypriol", "Fava Tonka"],
     },
   },
+  "fragrance-du-bois-sahraa": {
+    image: "assets/perfumes/fragrance-du-bois-sahraa.webp",
+    family: "Amadeirado Especiado",
+    source: "fragrancedubois.com",
+    observation: "Sem sleeve",
+    notes: {
+      top: ["Toranja"],
+      heart: ["Absoluto de Rosa", "Gerânio", "Jasmim", "Patchouli"],
+      base: ["Pimenta-do-reino", "Sândalo", "Açafrão", "Baunilha", "Âmbar", "Oud Vintage Orgânico Puro"],
+    },
+  },
   "fragrance-du-bois-siberian-rose": {
     image: "assets/perfumes/fragrance-du-bois-siberian-rose.webp",
     family: "Floral Ambarado",

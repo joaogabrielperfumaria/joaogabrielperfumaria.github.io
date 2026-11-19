@@ -27,6 +27,7 @@
  *     source?: string
  *     notes?: { top: string[], heart: string[], base: string[] }
  *     mainNotes?: string[]    // quando a marca não divulga pirâmide
+ *     observation?: string    // observação do item (ex.: "Sem sleeve")
  *   }
  *
  * Nenhum campo é inventado: só existe no modelo o que existe na fonte.

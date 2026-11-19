@@ -164,7 +164,7 @@ const state = {
 };
 
 function metaLine(p) {
-  return [p.volume, p.concentration, p.isTester ? "Tester" : null, p.noBox ? "Sem caixa" : null]
+  return [p.volume, p.concentration, p.isTester ? "Tester" : null, p.noBox ? "Sem caixa" : null, p.observation]
     .filter(Boolean)
     .join(" · ");
 }
@@ -493,6 +493,7 @@ function openDrawer(perfume) {
     perfume.concentration,
     perfume.isTester ? "Tester" : null,
     perfume.noBox ? "Sem caixa" : null,
+    perfume.observation,
     perfume.status,
   ].filter(Boolean);
   for (const c of chips) {
