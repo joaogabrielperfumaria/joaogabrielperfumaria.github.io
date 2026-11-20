@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T00:49:20.278Z",
+  "updatedAt": "2026-11-20T00:56:32.048Z",
   "items": [
     {
       "id": "bdk-parfums-oud-abramad-100ml",
@@ -469,16 +469,6 @@
       "isTester": false,
       "noBox": false,
       "price": 1720
-    },
-    {
-      "id": "initio-lift-me-up-90ml",
-      "slug": "initio-lift-me-up",
-      "brand": "Initio",
-      "name": "Lift me Up",
-      "volume": "90ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1650
     },
     {
       "id": "kajal-homme-ii-100ml",
