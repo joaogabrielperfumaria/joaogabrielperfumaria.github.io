@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T00:56:32.048Z",
+  "updatedAt": "2026-11-20T17:43:54.166Z",
   "items": [
     {
       "id": "bdk-parfums-oud-abramad-100ml",
@@ -268,16 +268,6 @@
       "isTester": false,
       "noBox": true,
       "price": 1750
-    },
-    {
-      "id": "fragrance-du-bois-sahraa-100ml",
-      "slug": "fragrance-du-bois-sahraa",
-      "brand": "Fragrance Du Bois",
-      "name": "Sahraa",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 2600
     },
     {
       "id": "fragrance-du-bois-siberian-rose-100ml",
