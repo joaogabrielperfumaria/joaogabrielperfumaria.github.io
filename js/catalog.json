@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T17:43:54.166Z",
+  "updatedAt": "2026-11-21T15:49:03.408Z",
   "items": [
     {
       "id": "bdk-parfums-oud-abramad-100ml",
@@ -40,16 +40,6 @@
       "isTester": false,
       "noBox": false,
       "price": 2700
-    },
-    {
-      "id": "boadicea-the-victorious-bravery-100ml",
-      "slug": "boadicea-the-victorious-bravery",
-      "brand": "Boadicea The Victorious",
-      "name": "Bravery",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1390
     },
     {
       "id": "boadicea-the-victorious-royal-sapphires-collection",
@@ -130,30 +120,10 @@
       "price": 820
     },
     {
-      "id": "christian-provenzano-cuir-elite-100ml",
-      "slug": "christian-provenzano-cuir-elite",
-      "brand": "Christian Provenzano",
-      "name": "Cuir Elite",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1390
-    },
-    {
       "id": "christian-provenzano-mangostino-100ml",
       "slug": "christian-provenzano-mangostino",
       "brand": "Christian Provenzano",
       "name": "Mangostino",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1390
-    },
-    {
-      "id": "christian-provenzano-massimo-100ml",
-      "slug": "christian-provenzano-massimo",
-      "brand": "Christian Provenzano",
-      "name": "Massimo",
       "volume": "100ml",
       "isTester": false,
       "noBox": false,
