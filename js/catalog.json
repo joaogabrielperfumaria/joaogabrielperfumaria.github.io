@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T15:49:03.408Z",
+  "updatedAt": "2026-11-23T01:04:57.572Z",
   "items": [
     {
       "id": "bdk-parfums-oud-abramad-100ml",
@@ -289,16 +289,6 @@
       "isTester": false,
       "noBox": false,
       "price": 1250
-    },
-    {
-      "id": "hind-al-oud-kheneen-al-fekr-50ml",
-      "slug": "hind-al-oud-kheneen-al-fekr",
-      "brand": "Hind Al Oud",
-      "name": "Kheneen Al Fekr",
-      "volume": "50ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1850
     },
     {
       "id": "hind-al-oud-oud-zayed-50ml",
