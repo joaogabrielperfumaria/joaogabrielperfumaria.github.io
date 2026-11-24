@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T12:04:34.618Z",
+  "updatedAt": "2026-11-24T02:29:42.637Z",
   "items": [
     {
       "id": "bdk-parfums-oud-abramad-100ml",
@@ -49,15 +49,6 @@
       "isTester": false,
       "noBox": false,
       "price": 1200
-    },
-    {
-      "id": "boadicea-the-victorious-the-amber-gift-set",
-      "slug": "boadicea-the-victorious-the-amber-gift-set",
-      "brand": "Boadicea The Victorious",
-      "name": "The Amber Gift Set",
-      "isTester": false,
-      "noBox": false,
-      "price": 1150
     },
     {
       "id": "boadicea-the-victorious-the-leather-gift-set",
@@ -188,16 +179,6 @@
       "isTester": false,
       "noBox": false,
       "price": 1450
-    },
-    {
-      "id": "creed-original-santal-100ml",
-      "slug": "creed-original-santal",
-      "brand": "Creed",
-      "name": "Original Santal",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1490
     },
     {
       "id": "creed-royal-princess-oud-75ml",
@@ -592,16 +573,6 @@
       "price": 920
     },
     {
-      "id": "orto-parisi-risvelium-50ml",
-      "slug": "orto-parisi-risvelium",
-      "brand": "Orto Parisi",
-      "name": "Risvelium",
-      "volume": "50ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 940
-    },
-    {
       "id": "orto-parisi-seminalis-50ml",
       "slug": "orto-parisi-seminalis",
       "brand": "Orto Parisi",
@@ -640,16 +611,6 @@
       "isTester": false,
       "noBox": false,
       "price": 1290
-    },
-    {
-      "id": "parfums-d-elmar-elixir-d-amour-60ml",
-      "slug": "parfums-d-elmar-elixir-d-amour",
-      "brand": "Parfums d'Elmar",
-      "name": "Elixir d'Amour",
-      "volume": "60ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1350
     },
     {
       "id": "parfums-d-elmar-zaya-60ml",
