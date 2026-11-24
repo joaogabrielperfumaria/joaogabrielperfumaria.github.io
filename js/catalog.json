@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T02:29:42.637Z",
+  "updatedAt": "2026-11-24T12:59:13.179Z",
   "items": [
     {
       "id": "bdk-parfums-oud-abramad-100ml",
@@ -159,16 +159,6 @@
       "isTester": false,
       "noBox": false,
       "price": 980
-    },
-    {
-      "id": "creed-erolfa-100ml",
-      "slug": "creed-erolfa",
-      "brand": "Creed",
-      "name": "Erolfa",
-      "volume": "100ml",
-      "isTester": false,
-      "noBox": false,
-      "price": 1820
     },
     {
       "id": "creed-love-in-black-75ml",
