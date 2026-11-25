@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T12:59:13.179Z",
+  "updatedAt": "2026-11-25T14:55:20.425Z",
   "items": [
     {
       "id": "bdk-parfums-oud-abramad-100ml",
@@ -89,26 +89,6 @@
       "noBox": false,
       "price": 1230,
       "status": "Lançamento"
-    },
-    {
-      "id": "casamorati-bouquet-ideale-100ml-tester",
-      "slug": "casamorati-bouquet-ideale",
-      "brand": "Casamorati",
-      "name": "Bouquet Ideale",
-      "volume": "100ml",
-      "isTester": true,
-      "noBox": false,
-      "price": 820
-    },
-    {
-      "id": "casamorati-tempio-d-acqua-100ml-tester",
-      "slug": "casamorati-tempio-d-acqua",
-      "brand": "Casamorati",
-      "name": "Tempio d'Acqua",
-      "volume": "100ml",
-      "isTester": true,
-      "noBox": false,
-      "price": 820
     },
     {
       "id": "christian-provenzano-mangostino-100ml",
