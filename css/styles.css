@@ -734,6 +734,8 @@ button {
 }
 
 /* ═══ DESAPEGOS ════════════════════════════════════════════── */
+.desapegos { border-top: 1px solid var(--line); }
+
 .desapegos-tabs {
   display: flex;
   gap: 2rem;
