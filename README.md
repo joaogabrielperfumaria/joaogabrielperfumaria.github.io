@@ -32,6 +32,7 @@ Nada precisa ser compilado. Após publicar:
 | Catálogo (itens disponíveis) | [`js/catalog.json`](js/catalog.json), gerado por [`scripts/sync-estoque.mjs`](scripts/sync-estoque.mjs) |
 | Link do canal e do simulador | [`js/config.js`](js/config.js) |
 | Vídeos em destaque | [`js/videos.js`](js/videos.js) |
+| Desapegos (acervo pessoal) | [`js/desapegos.json`](js/desapegos.json), gerado por [`scripts/import-desapegos.py`](scripts/import-desapegos.py) a partir das planilhas Designer/Nicho (linhas com "Cliente" preenchido ficam de fora) |
 | Fotos e pirâmide olfativa | [`js/fragrances.js`](js/fragrances.js) |
 | Modalidades de envio e seguros | [`index.html`](index.html), seção "Entrega & Segurança" |
 

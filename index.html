@@ -48,6 +48,7 @@
       <ul class="nav-menu" id="nav-menu">
         <li><a href="#inicio">Início</a></li>
         <li><a href="#catalogo">Perfumes</a></li>
+        <li><a href="#desapegos">Desapegos</a></li>
         <li><a href="#videos">Vídeos</a></li>
         <li><a href="#pagamento">Pagamento</a></li>
         <li><a href="#entrega">Entrega</a></li>
@@ -157,6 +158,43 @@
       </div>
     </section>
 
+    <!-- ══════════ DESAPEGOS ══════════ -->
+    <section class="desapegos section section--sand" id="desapegos" aria-label="Desapegos">
+      <div class="section-head reveal">
+        <p class="section-eyebrow">Do acervo pessoal</p>
+        <h2 class="section-title">Desapegos</h2>
+        <p class="section-sub">Frascos do meu acervo, já usados, com valores para pagamento à vista <span class="nowrap">(PIX e TED)</span>. Nível e estado de cada frasco são confirmados pelo WhatsApp.</p>
+      </div>
+
+      <div class="desapegos-tabs reveal" role="tablist" aria-label="Categoria">
+        <button type="button" class="desapegos-tab" role="tab" id="tab-nicho" data-tab="nicho" aria-selected="true" aria-controls="desapegos-list">Nicho <span></span></button>
+        <button type="button" class="desapegos-tab" role="tab" id="tab-designer" data-tab="designer" aria-selected="false" aria-controls="desapegos-list">Designer <span></span></button>
+      </div>
+
+      <div class="catalog-tools reveal" role="search">
+        <div class="search-field">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="9" cy="9" r="6.2" fill="none" stroke="currentColor" stroke-width="1.4"/><line x1="13.6" y1="13.6" x2="18" y2="18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          <input type="search" id="desapegos-search" placeholder="Buscar por perfume ou marca" aria-label="Buscar desapegos por perfume ou marca" autocomplete="off" />
+        </div>
+        <div class="filters">
+          <div class="filter-group">
+            <label class="filter-label" for="desapegos-brand">Marca</label>
+            <select id="desapegos-brand" class="filter-select"><option value="">Todas</option></select>
+          </div>
+          <button class="filter-clear" id="desapegos-clear" hidden>Limpar</button>
+        </div>
+      </div>
+
+      <p class="catalog-count" id="desapegos-count" role="status" aria-live="polite"></p>
+
+      <div class="desapegos-list" id="desapegos-list" role="tabpanel" aria-labelledby="tab-nicho"></div>
+
+      <div class="catalog-empty" id="desapegos-empty" hidden>
+        <p>Nenhum desapego encontrado com esses critérios.</p>
+        <button class="btn btn--ghost" id="desapegos-empty-clear">Limpar busca e filtro</button>
+      </div>
+    </section>
+
     <!-- ══════════ PAGAMENTO ══════════ -->
     <section class="payment section section--dark" id="pagamento" aria-label="Simulação de pagamento">
       <div class="payment-inner">
@@ -219,6 +257,7 @@
         <a id="footer-youtube" href="#" target="_blank" rel="noopener noreferrer">YouTube</a>
         <a id="footer-whatsapp" href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a>
         <a href="#catalogo">Perfumes</a>
+        <a href="#desapegos">Desapegos</a>
       </nav>
       <p class="footer-note">Perfumaria de nicho independente. Valores para pagamento à vista; disponibilidade confirmada no atendimento.</p>
     </div>

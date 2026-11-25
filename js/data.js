@@ -81,3 +81,27 @@ export async function loadCatalog() {
     clearTimeout(timer);
   }
 }
+
+const DESAPEGOS_URL = new URL("./desapegos.json", import.meta.url);
+
+/**
+ * Desapegos do acervo pessoal (frascos usados), de js/desapegos.json — gerado
+ * por scripts/import-desapegos.py. Independente do catálogo do estoque.
+ */
+export async function loadDesapegos() {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 8000);
+  try {
+    const res = await fetch(DESAPEGOS_URL, { cache: "no-cache", signal: controller.signal });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const { items } = await res.json();
+    if (!Array.isArray(items) || !items.length) throw new Error("Desapegos vazios");
+    return items.map((item) => ({
+      ...item,
+      fullName: [item.brand, item.name, item.concentration, item.volume].filter(Boolean).join(" "),
+      priceFormatted: brl.format(item.price),
+    }));
+  } finally {
+    clearTimeout(timer);
+  }
+}

@@ -17,6 +17,8 @@ export const CONFIG = {
       "Olá! Tenho interesse no [NOME] [VOLUME]. Gostaria de receber mais informações.",
     genericMessage:
       "Olá! Tenho interesse nos perfumes a pronta entrega. Gostaria de receber mais informações.",
+    desapegoMessage:
+      "Olá! Tenho interesse no desapego [NOME]. Gostaria de saber o nível e o estado do frasco.",
   },
 
   youtube: {

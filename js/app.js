@@ -4,7 +4,7 @@
  * via textContent / createElement — nunca innerHTML com dados externos.
  */
 import { CONFIG } from "./config.js";
-import { loadCatalog } from "./data.js";
+import { loadCatalog, loadDesapegos } from "./data.js";
 import { FEATURED_VIDEOS } from "./videos.js";
 
 const $ = (sel, root = document) => root.querySelector(sel);
@@ -658,6 +658,146 @@ function initVideos() {
   });
 }
 
+/* ── Desapegos (acervo pessoal, frascos usados) ───────────── */
+
+const desapegos = { items: [], tab: "nicho", query: "", brand: "" };
+
+function desapegoRow(item) {
+  const row = document.createElement("li");
+  row.className = "desapego-row";
+
+  const text = document.createElement("div");
+  text.className = "desapego-text";
+  const name = document.createElement("span");
+  name.className = "desapego-name";
+  name.textContent = item.name;
+  const meta = document.createElement("span");
+  meta.className = "perfume-meta";
+  meta.textContent = [item.concentration, item.volume].filter(Boolean).join(" · ");
+  text.append(name, meta);
+
+  const price = document.createElement("span");
+  price.className = "desapego-price";
+  price.textContent = item.priceFormatted;
+
+  const link = document.createElement("a");
+  link.className = "desapego-link";
+  link.href = waUrl(CONFIG.whatsapp.desapegoMessage.replace("[NOME]", item.fullName));
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.textContent = "Tenho interesse";
+  link.setAttribute("aria-label", `Tenho interesse em ${item.fullName}`);
+
+  row.append(text, price, link);
+  return row;
+}
+
+function renderDesapegos() {
+  const list = $("#desapegos-list");
+  const q = desapegos.query.trim().toLowerCase();
+  const inTab = desapegos.items.filter((i) => i.category === desapegos.tab);
+  const results = inTab.filter(
+    (i) =>
+      (!desapegos.brand || i.brand === desapegos.brand) &&
+      (!q || `${i.brand} ${i.name} ${i.concentration ?? ""}`.toLowerCase().includes(q))
+  );
+
+  const groups = new Map();
+  for (const item of [...results].sort((a, b) =>
+    a.brand.localeCompare(b.brand, "pt-BR") || a.name.localeCompare(b.name, "pt-BR")
+  )) {
+    if (!groups.has(item.brand)) groups.set(item.brand, []);
+    groups.get(item.brand).push(item);
+  }
+
+  list.replaceChildren(
+    ...[...groups].map(([brand, items]) => {
+      const group = document.createElement("section");
+      group.className = "desapego-group";
+      const title = document.createElement("h3");
+      title.className = "perfume-brand desapego-brand";
+      title.textContent = brand;
+      const ul = document.createElement("ul");
+      ul.append(...items.map(desapegoRow));
+      group.append(title, ul);
+      return group;
+    })
+  );
+
+  const filtering = desapegos.query || desapegos.brand;
+  list.hidden = results.length === 0;
+  $("#desapegos-empty").hidden = results.length > 0;
+  $("#desapegos-clear").hidden = !filtering;
+  $("#desapegos-count").textContent =
+    results.length === 0
+      ? ""
+      : filtering
+        ? `${results.length} de ${inTab.length} desapegos`
+        : `${inTab.length} desapegos`;
+}
+
+function fillDesapegoBrands() {
+  const sel = $("#desapegos-brand");
+  const brands = [
+    ...new Set(desapegos.items.filter((i) => i.category === desapegos.tab).map((i) => i.brand)),
+  ].sort((a, b) => a.localeCompare(b, "pt-BR"));
+  sel.replaceChildren(new Option("Todas", ""), ...brands.map((b) => new Option(b, b)));
+}
+
+async function initDesapegos() {
+  const list = $("#desapegos-list");
+  try {
+    desapegos.items = await loadDesapegos();
+  } catch (err) {
+    console.error("Desapegos indisponíveis.", err);
+    const msg = document.createElement("p");
+    msg.className = "catalog-note";
+    msg.textContent = "Não foi possível carregar os desapegos agora. Chame no WhatsApp para ver os disponíveis.";
+    list.replaceChildren(msg);
+    return;
+  }
+
+  const tabs = document.querySelectorAll(".desapegos-tab");
+  for (const tab of tabs) {
+    const n = desapegos.items.filter((i) => i.category === tab.dataset.tab).length;
+    tab.querySelector("span").textContent = `(${n})`;
+    tab.addEventListener("click", () => {
+      desapegos.tab = tab.dataset.tab;
+      desapegos.brand = "";
+      tabs.forEach((t) => t.setAttribute("aria-selected", String(t === tab)));
+      list.setAttribute("aria-labelledby", tab.id);
+      fillDesapegoBrands();
+      renderDesapegos();
+    });
+  }
+
+  const search = $("#desapegos-search");
+  const brandSel = $("#desapegos-brand");
+  let debounce;
+  search.addEventListener("input", () => {
+    clearTimeout(debounce);
+    debounce = setTimeout(() => {
+      desapegos.query = search.value;
+      renderDesapegos();
+    }, 120);
+  });
+  brandSel.addEventListener("change", () => {
+    desapegos.brand = brandSel.value;
+    renderDesapegos();
+  });
+  const clear = () => {
+    desapegos.query = desapegos.brand = "";
+    search.value = "";
+    brandSel.value = "";
+    renderDesapegos();
+  };
+  $("#desapegos-clear").addEventListener("click", clear);
+  $("#desapegos-empty-clear").addEventListener("click", clear);
+
+  fillDesapegoBrands();
+  renderDesapegos();
+}
+
 /* ── Parallax sutil no hero ───────────────────────────────── */
 
 function initHeroParallax() {
@@ -694,3 +834,4 @@ initCatalogTools();
 initHeroParallax();
 observeReveals();
 initCatalog();
+initDesapegos();

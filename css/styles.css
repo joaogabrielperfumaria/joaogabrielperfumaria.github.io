@@ -733,6 +733,80 @@ button {
   margin: 0;
 }
 
+/* ═══ DESAPEGOS ════════════════════════════════════════════── */
+.desapegos-tabs {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--line);
+}
+.desapegos-tab {
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  padding: 0.75rem 0;
+  margin-bottom: -1px;
+  border-bottom: 1px solid transparent;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+.desapegos-tab span { letter-spacing: 0.06em; opacity: 0.7; }
+.desapegos-tab:hover { color: var(--ink); }
+.desapegos-tab[aria-selected="true"] { color: var(--ink); border-color: var(--ink); }
+
+.desapegos-list {
+  columns: 2 26rem;
+  column-gap: 3.5rem;
+}
+.desapego-group {
+  break-inside: avoid;
+  margin-bottom: 2.25rem;
+}
+.desapego-brand {
+  font-family: var(--font-body);
+  display: block;
+  font-weight: 400;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--line-strong);
+}
+.desapego-group ul { list-style: none; margin: 0; padding: 0; }
+.desapego-row {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 0.4rem 1.5rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.desapego-text { display: flex; flex-direction: column; gap: 0.15rem; min-width: 0; }
+.desapego-name {
+  font-family: var(--font-display);
+  font-size: 1.08rem;
+  line-height: 1.3;
+}
+.desapego-price {
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.desapego-link {
+  font-size: 0.68rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--bronze);
+  white-space: nowrap;
+  border-bottom: 1px solid transparent;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+.desapego-link:hover,
+.desapego-link:focus-visible { color: var(--ink); border-color: currentColor; }
+
+@media (max-width: 640px) {
+  .desapego-row { grid-template-columns: 1fr auto; }
+  .desapego-text { grid-column: 1 / -1; }
+}
+
 /* ═══ PAGAMENTO ════════════════════════════════════════════── */
 .payment { padding: var(--space-section) var(--gutter); }
 .payment-inner { max-width: 82rem; margin: 0 auto; }
