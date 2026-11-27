@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T01:09:55.179Z",
+  "updatedAt": "2026-11-27T17:58:44.159Z",
   "items": [
     {
       "id": "bdk-parfums-oud-abramad-100ml",
@@ -189,6 +189,16 @@
       "isTester": false,
       "noBox": true,
       "price": 1750
+    },
+    {
+      "id": "fragrance-du-bois-siberian-rose-100ml",
+      "slug": "fragrance-du-bois-siberian-rose",
+      "brand": "Fragrance Du Bois",
+      "name": "Siberian Rose",
+      "volume": "100ml",
+      "isTester": false,
+      "noBox": false,
+      "price": 1400
     },
     {
       "id": "fragrance-du-bois-sirene-privee-75ml",
