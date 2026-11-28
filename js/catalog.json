@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T17:58:44.159Z",
+  "updatedAt": "2026-11-28T01:09:48.971Z",
   "items": [
     {
       "id": "bdk-parfums-oud-abramad-100ml",
@@ -89,6 +89,17 @@
       "noBox": false,
       "price": 1230,
       "status": "Lançamento"
+    },
+    {
+      "id": "chambre52-tobacco-memories-extrait-52ml",
+      "slug": "chambre52-tobacco-memories",
+      "brand": "Chambre52",
+      "name": "Tobacco Memories",
+      "volume": "52ml",
+      "concentration": "Extrait",
+      "isTester": false,
+      "noBox": false,
+      "price": 1250
     },
     {
       "id": "christian-provenzano-mangostino-100ml",

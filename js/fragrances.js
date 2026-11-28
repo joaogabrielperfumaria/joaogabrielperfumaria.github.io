@@ -491,6 +491,15 @@ export const FRAGRANCES = {
     },
   },
 
+  "chambre52-tobacco-memories-extrait": {
+    image: "assets/perfumes/tobacco-memories-extrait.webp",
+    family: "Oriental Especiado",
+    perfumer: "Domitille Michalon Bertier",
+    source: "chambre52.com",
+    // A Chambre52 divulga as notas sem separar em pirâmide; família pela Fragrantica.
+    mainNotes: ["Açafrão", "Cereja Negra", "Íris", "Absoluto de Tabaco", "Labdanum"],
+  },
+
   "christian-provenzano-ambre-d-or": {
     image: "assets/perfumes/ambre-d-or.webp",
     perfumer: "Christian Provenzano",
